@@ -214,3 +214,6 @@ th {
 body {
   font-family: ProximaNova, sans-serif;
   font-weight: normal; }
+
+section {
+  background-color: yellow; }
