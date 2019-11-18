@@ -24,14 +24,9 @@
     border-radius: 69px;
     margin-right: auto;
   }
-  &__nav {
-    display: flex;
-    align-items: center;
-  }
 
   &__menu {
     display: flex;
-    justify-content: space-between;
     list-style: none;
 
     &-link {
