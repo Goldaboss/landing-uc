@@ -37,14 +37,38 @@
       &--free {
         color: #2E5473;
         background-color: #ffffff;
-        width: 355px;
-        height: 75px;
         font-weight: bold;
         border: none;
-        padding: 0;
+        padding: 22px 39px;
         border-radius: 69px;
       }
     }
   }
 
+  &__main {
+
+    &-title {
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 78px;
+      color: #ffffff;
+
+      &-little {
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 68px;
+        color: #9AD7FF;
+      }
+    }
+
+    &-text {
+       font-size: 24px;
+      line-height: 29px;
+      color: #FFFFFF;
+    }
+
+    &-img {
+      background-image: url("app/img/");
+    }
+  }
 }

@@ -269,9 +269,23 @@ body {
       .first__menu-link--free {
         color: #2E5473;
         background-color: #ffffff;
-        width: 355px;
-        height: 75px;
         font-weight: bold;
         border: none;
-        padding: 0;
+        padding: 22px 39px;
         border-radius: 69px; }
+  .first__main-title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #ffffff; }
+    .first__main-title-little {
+      font-weight: bold;
+      font-size: 56px;
+      line-height: 68px;
+      color: #9AD7FF; }
+  .first__main-text {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF; }
+  .first__main-img {
+    background-image: url("app/img/"); }
