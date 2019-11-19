@@ -272,8 +272,9 @@ body {
         background-color: #ffffff;
         font-weight: bold;
         border: none;
-        padding: 22px 39px;
-        border-radius: 69px; }
+        padding: 23px 39px;
+        border-radius: 69px;
+        white-space: nowrap; }
   .first__main {
     display: -webkit-box;
     display: -webkit-flex;
