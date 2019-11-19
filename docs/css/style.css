@@ -236,7 +236,8 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     font-size: 24px;
-    line-height: 29px; }
+    line-height: 29px;
+    padding-bottom: 156px; }
   .first__logo {
     display: -webkit-box;
     display: -webkit-flex;
@@ -273,19 +274,31 @@ body {
         border: none;
         padding: 22px 39px;
         border-radius: 69px; }
-  .first__main-title {
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 78px;
-    color: #ffffff; }
-    .first__main-title-little {
+  .first__main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .first__main-title {
       font-weight: bold;
-      font-size: 56px;
-      line-height: 68px;
-      color: #9AD7FF; }
-  .first__main-text {
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF; }
-  .first__main-img {
-    background-image: url("app/img/"); }
+      font-size: 64px;
+      line-height: 78px;
+      color: #ffffff;
+      padding: 48px 0 195px;
+      margin: 0; }
+      .first__main-title-little {
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 68px;
+        color: #9AD7FF;
+        margin: 0;
+        padding: 0 0 20px 0; }
+    .first__main-text {
+      font-size: 24px;
+      line-height: 29px;
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0 0 304px 0; }
