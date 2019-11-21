@@ -1,9 +1,21 @@
+html {
+  font-size: 16px;
+}
+
 body {
    font-family: ProximaNova, sans-serif;
    font-weight: normal;
-  box-sizing: border-box;
  }
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1920px;
-  padding: 10px 106px 0;
+  padding: 0 106px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
 }

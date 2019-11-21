@@ -16,7 +16,7 @@ gulp.task('styles', function(){ // Создаем таск "styles"
 });
 
 gulp.task('html', function() {
-    return gulp.src('app/**/*.html')
+    return gulp.src('app/index.html')
         .pipe(rigger())
         .pipe(gulp.dest('docs'))
         .pipe(browserSync.reload({ stream: true }))

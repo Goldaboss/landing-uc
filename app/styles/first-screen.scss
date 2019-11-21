@@ -1,16 +1,13 @@
 .first {
-  background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%);
 
-
-  &__container {
-    padding: 57px 106px 0;
+  &__bg {
+    background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%);
   }
 
   &__header{
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
-    line-height: 29px;
+    padding-top: 57px;
     padding-bottom: 156px;
   }
 
@@ -23,24 +20,28 @@
     font-weight: bold;
     background-color: #ffffff;
     border-radius: 69px;
-    margin-right: auto;
   }
 
   &__menu {
     display: flex;
     list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 
     &-link {
+      font-size: 24px;
       color: #ffffff;
       padding-right: 64px;
       text-decoration: none;
 
       &--free {
+        display: block;
         color: #2E5473;
         background-color: #ffffff;
         font-weight: bold;
         border: none;
-        padding: 23px 39px;
+        padding: 19px 39px;
         border-radius: 69px;
         white-space: nowrap;
       }
@@ -49,12 +50,12 @@
 
   &__main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 157px 0 93px;
 
     &-title {
       font-weight: bold;
       font-size: 64px;
-      line-height: 78px;
       color: #ffffff;
       padding:48px 0 195px;
       margin: 0;
@@ -62,7 +63,6 @@
       &-little {
         font-weight: bold;
         font-size: 56px;
-        line-height: 68px;
         color: #9AD7FF;
         margin: 0;
         padding: 0 0 20px 0;
