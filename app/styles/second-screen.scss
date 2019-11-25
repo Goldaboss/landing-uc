@@ -21,8 +21,7 @@
   &__header {
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
-    padding-bottom: 150px;
+    padding: 120px 0 150px 70px ;
 
     &-info {
       padding-top: 90px;
@@ -30,11 +29,10 @@
 
     &-title {
       font-weight: bold;
-      font-size: 56px;
+      font-size: 3.5rem;
       line-height: 68px;
-      padding-left: 80px;
-      padding-bottom: 96px;
-      padding-top: 50px;
+      padding: 50px 0 125px 15px;
+      margin: 0;
     }
 
     &-img {
@@ -44,27 +42,56 @@
     }
   }
 
+  &__main {
+    padding-left: 78px;
+    padding-right: 78px;
+  }
   .feature {
+    &__list {
+      margin: 0;
+      padding: 0;
+    }
 
     &__item {
       list-style: none;
-      min-height: 180px;
-      padding-right: 200px;
+      display: flex;
+      min-height: 200px;
+      padding-bottom: 20px;
+
+      &-icon {
+        font-size: 80px;
+        color: #9AD7FF;
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin-right: 45px;
+      }
+
+      &-content{
+
+      }
 
       &-title {
         font-weight: bold;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 29px;
         color: #2C3E50;
         margin: 0;
         padding-bottom: 20px;
+
+        &-small {
+          font-size: 1.15rem;
+        }
       }
 
       &-text {
         font-weight: normal;
-        font-size: 18.6667px;
+        font-size: 1.16rem;
         line-height: 23px;
         color: #2E5473;
+        margin: 0;
+        max-width: 520px;
+        padding-bottom: 30px;
       }
     }
   }

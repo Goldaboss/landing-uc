@@ -338,7 +338,7 @@ img {
   margin: 0;
   padding: 0; }
   .first__menu-link {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #ffffff;
     padding-right: 64px;
     text-decoration: none; }
@@ -364,22 +364,21 @@ img {
   padding: 0 157px 0 93px; }
   .first__main-title {
     font-weight: bold;
-    font-size: 64px;
+    font-size: 4rem;
     color: #ffffff;
     padding: 48px 0 195px;
     margin: 0; }
     .first__main-title-little {
       font-weight: bold;
-      font-size: 56px;
+      font-size: 3.5rem;
       color: #9AD7FF;
       margin: 0;
       padding: 0 0 20px 0; }
   .first__main-text {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.5rem;
     color: #FFFFFF;
     margin: 0;
-    padding: 0 0 304px 0; }
+    padding: 0 0 300px 0; }
 
 .second__bg {
   position: relative;
@@ -407,17 +406,15 @@ img {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 120px;
-  padding-bottom: 150px; }
+  padding: 120px 0 150px 70px; }
   .second__header-info {
     padding-top: 90px; }
   .second__header-title {
     font-weight: bold;
-    font-size: 56px;
+    font-size: 3.5rem;
     line-height: 68px;
-    padding-left: 80px;
-    padding-bottom: 96px;
-    padding-top: 50px; }
+    padding: 50px 0 125px 15px;
+    margin: 0; }
   .second__header-img {
     width: 1045.33px;
     height: 692px;
@@ -425,19 +422,43 @@ img {
         -ms-flex-negative: 0;
             flex-shrink: 0; }
 
+.second__main {
+  padding-left: 78px;
+  padding-right: 78px; }
+
+.second .feature__list {
+  margin: 0;
+  padding: 0; }
+
 .second .feature__item {
   list-style: none;
-  min-height: 180px;
-  padding-right: 200px; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 200px;
+  padding-bottom: 20px; }
+  .second .feature__item-icon {
+    font-size: 80px;
+    color: #9AD7FF;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: 45px; }
   .second .feature__item-title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 29px;
     color: #2C3E50;
     margin: 0;
     padding-bottom: 20px; }
+    .second .feature__item-title-small {
+      font-size: 1.15rem; }
   .second .feature__item-text {
     font-weight: normal;
-    font-size: 18.6667px;
+    font-size: 1.16rem;
     line-height: 23px;
-    color: #2E5473; }
+    color: #2E5473;
+    margin: 0;
+    max-width: 520px;
+    padding-bottom: 30px; }
