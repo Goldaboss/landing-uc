@@ -1,0 +1,69 @@
+.third {
+
+  &__bg {
+    background: #E5E5E5 url("../img/Could.png") no-repeat 890px 200px;
+  }
+
+  &__header {
+    padding-top: 100px;
+
+    &-title {
+      font-size: 3.5rem;
+      color: #333333;
+      text-align: center;
+      font-weight: bold;
+      padding: 0 0 93px 0;
+      margin: 0;
+    }
+  }
+
+  &__main {
+    display: flex;
+    padding-bottom: 116px;
+
+    &-video {
+      width: 1045px;
+      flex-shrink: 0;
+    }
+
+    &-capabilities {
+      padding: 50px 0 0 15px;
+
+      &-title {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 0 0 45px 20px;
+        margin: 0;
+      }
+
+      &-list  {
+        padding: 0 0 0 5px;
+      }
+
+      &-item {
+        list-style: none;
+        display: flex;
+
+        &-icon {
+          font-size: 2.5rem;
+          color: #2E5473;
+          width: 80px;
+          flex-shrink: 0;
+          display: flex;
+          align-self: baseline;
+          justify-content: center;
+        }
+
+        &-content {
+          font-size: 1.5rem;
+          line-height: 1.8125rem;
+          padding-bottom: 38px;
+        }
+
+      }
+
+
+
+    }
+  }
+}

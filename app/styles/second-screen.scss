@@ -45,8 +45,15 @@
 
   &__main {
     padding: 0 78px 128px;
+
+    &-line {
+      background: #F2F2F2;
+      height: 1.3px;
+      margin: 0 21px 0 ;
+    }
   }
   .feature {
+
     &__list {
       margin: 0;
       padding: 0 0 43px 0;
@@ -58,7 +65,7 @@
       padding-bottom: 30px;
 
       &-icon {
-        font-size: 80px;
+        font-size: 5rem;
         color: #9AD7FF;
         display: block;
         width: 125px;
@@ -104,4 +111,6 @@
     box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
     margin: 0 auto;
   }
+
+
 }

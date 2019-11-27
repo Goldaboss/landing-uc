@@ -214,7 +214,7 @@ th {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.ttf?i7vzfl") format("truetype"), url("../fonts/icomoon/icomoon.woff?i7vzfl") format("woff"), url("../fonts/icomoon/icomoon.svg?i7vzfl#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.ttf?3abc2m") format("truetype"), url("../fonts/icomoon/icomoon.woff?3abc2m") format("woff"), url("../fonts/icomoon/icomoon.svg?3abc2m#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -231,6 +231,30 @@ th {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-Union-1:before {
+  content: "";
+  color: #2e5473; }
+
+.icon-Union-2:before {
+  content: "";
+  color: #2e5473; }
+
+.icon-Union-3:before {
+  content: "";
+  color: #2e5473; }
+
+.icon-Union-4:before {
+  content: "";
+  color: #2e5473; }
+
+.icon-Union-5:before {
+  content: "";
+  color: #2e5473; }
+
+.icon-Union-6:before {
+  content: "";
+  color: #2e5473; }
 
 .icon-1:before {
   content: ""; }
@@ -425,6 +449,10 @@ img {
 
 .second__main {
   padding: 0 78px 128px; }
+  .second__main-line {
+    background: #F2F2F2;
+    height: 1.3px;
+    margin: 0 21px 0; }
 
 .second .feature__list {
   margin: 0;
@@ -438,7 +466,7 @@ img {
   display: flex;
   padding-bottom: 30px; }
   .second .feature__item-icon {
-    font-size: 80px;
+    font-size: 5rem;
     color: #9AD7FF;
     display: block;
     width: 125px; }
@@ -473,3 +501,65 @@ img {
   -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
           box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
   margin: 0 auto; }
+
+.third__bg {
+  background: #E5E5E5 url("../img/Could.png") no-repeat 890px 200px; }
+
+.third__header {
+  padding-top: 100px; }
+  .third__header-title {
+    font-size: 3.5rem;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 93px 0;
+    margin: 0; }
+
+.third__main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 116px; }
+  .third__main-video {
+    width: 1045px;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+  .third__main-capabilities {
+    padding: 50px 0 0 15px; }
+    .third__main-capabilities-title {
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 0 0 45px 20px;
+      margin: 0; }
+    .third__main-capabilities-list {
+      padding: 0 0 0 5px; }
+    .third__main-capabilities-item {
+      list-style: none;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .third__main-capabilities-item-icon {
+        font-size: 2.5rem;
+        color: #2E5473;
+        width: 80px;
+        -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-self: baseline;
+            -ms-flex-item-align: baseline;
+                align-self: baseline;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+      .third__main-capabilities-item-content {
+        font-size: 1.5rem;
+        line-height: 1.8125rem;
+        padding-bottom: 38px; }

@@ -3,15 +3,13 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?i7vzfl') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?i7vzfl') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?i7vzfl##{$icomoon-font-family}') format('svg');
+          url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3abc2m') format('truetype'),
+          url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3abc2m') format('woff'),
+          url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3abc2m##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
-// ../fonts/icomoon/icomoon
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -28,69 +26,104 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Union-1 {
+  &:before {
+    content: $icon-Union-1;
+    color: #2e5473;
+  }
+}
+.icon-Union-2 {
+  &:before {
+    content: $icon-Union-2;
+    color: #2e5473;
+  }
+}
+.icon-Union-3 {
+  &:before {
+    content: $icon-Union-3;
+    color: #2e5473;
+  }
+}
+.icon-Union-4 {
+  &:before {
+    content: $icon-Union-4;
+    color: #2e5473;
+  }
+}
+.icon-Union-5 {
+  &:before {
+    content: $icon-Union-5;
+    color: #2e5473;
+  }
+}
+.icon-Union-6 {
+  &:before {
+    content: $icon-Union-6;
+    color: #2e5473;
+  }
+}
 .icon-1 {
   &:before {
-    content: $icon-1; 
+    content: $icon-1;
   }
 }
 .icon-2 {
   &:before {
-    content: $icon-2; 
+    content: $icon-2;
   }
 }
 .icon-3 {
   &:before {
-    content: $icon-3; 
+    content: $icon-3;
   }
 }
 .icon-4 {
   &:before {
-    content: $icon-4; 
+    content: $icon-4;
   }
 }
 .icon-5 {
   &:before {
-    content: $icon-5; 
+    content: $icon-5;
   }
 }
 .icon-6 {
   &:before {
-    content: $icon-6; 
+    content: $icon-6;
   }
 }
 .icon-7 {
   &:before {
-    content: $icon-7; 
+    content: $icon-7;
   }
 }
 .icon-8 {
   &:before {
-    content: $icon-8; 
+    content: $icon-8;
   }
 }
 .icon-9 {
   &:before {
-    content: $icon-9; 
+    content: $icon-9;
   }
 }
 .icon-10 {
   &:before {
-    content: $icon-10; 
+    content: $icon-10;
   }
 }
 .icon-11 {
   &:before {
-    content: $icon-11; 
+    content: $icon-11;
   }
 }
 .icon-12 {
   &:before {
-    content: $icon-12; 
+    content: $icon-12;
   }
 }
 .icon-13 {
   &:before {
-    content: $icon-13; 
+    content: $icon-13;
   }
 }
-
