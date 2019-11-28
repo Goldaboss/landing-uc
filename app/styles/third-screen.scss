@@ -27,7 +27,9 @@
     }
 
     &-capabilities {
-      padding: 50px 0 0 15px;
+      padding: 50px 0 30px 15px;
+      display: flex;
+      flex-direction: column;
 
       &-title {
         font-size: 2rem;
@@ -38,26 +40,39 @@
 
       &-list  {
         padding: 0 0 0 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+      }
+      &-list:last-child {
+        font-size: 1rem;
+
       }
 
       &-item {
         list-style: none;
         display: flex;
+        align-items: center;
 
         &-icon {
           font-size: 2.5rem;
+          line-height: 1;
           color: #2E5473;
           width: 80px;
           flex-shrink: 0;
-          display: flex;
-          align-self: baseline;
-          justify-content: center;
+          display: block;
+          margin: auto 0;
+          text-align: center;
+
+          &-last {
+            font-size: 2rem;
+          }
         }
 
         &-content {
           font-size: 1.5rem;
           line-height: 1.8125rem;
-          padding-bottom: 38px;
         }
 
       }
