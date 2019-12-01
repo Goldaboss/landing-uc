@@ -2,8 +2,8 @@
 @import "fonts";
 @import "style-icon";
 @import "main";
-@import "first-screen";
-@import "second-screen";
-@import "third-screen";
-@import "fourth-screen";
-@import "fifth-screen";
+@import "../components/first-screen/first-screen";
+@import "../components/second-screen/second-screen";
+@import "../components/third-screen/third-screen";
+@import "../components/fourth-screen/fourth-screen";
+@import "../components/fifth-screen/fifth-screen";

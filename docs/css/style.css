@@ -505,7 +505,7 @@ button:active, button:focus {
   margin: 0 auto; }
 
 .third__bg {
-  background: url("../img/Could.png") no-repeat 890px 200px; }
+  background: url("../../img/Could.png") no-repeat 890px 200px; }
 
 .third__header {
   padding-top: 100px; }
@@ -593,7 +593,7 @@ button:active, button:focus {
         line-height: 1.8125rem; }
 
 .fourth__bg {
-  background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat; }
+  background: #f9f9f9 url("../../img/Section-4bg.jpg") no-repeat; }
 
 .fourth__header {
   padding: 285px 0 95px 0;

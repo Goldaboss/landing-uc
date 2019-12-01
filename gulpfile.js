@@ -4,7 +4,7 @@ const gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),// Подключаем библиотеку для автоматического добавления префиксов
     babel = require('gulp-babel'),
     imagemin = require('gulp-imagemin'),
-    rigger = require('gulp-rigger');
+    rigger = require('gulp-rigger'); //Подключает компоненты на страницы (//=.....)
 
 
 gulp.task('styles', function(){ // Создаем таск "styles"
