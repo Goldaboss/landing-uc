@@ -1,0 +1,49 @@
+.fourth {
+
+  &__bg {
+    background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat;
+  }
+
+  &__header {
+    padding: 285px 0 95px 0;
+    margin: 0;
+
+    &-title {
+      font-size: 3.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 0;
+      padding-bottom: 25px;
+    }
+
+    &-text {
+      font-size: 1.1625rem;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  &__main {
+    padding: 0 100px 0;
+
+    &-header {
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid #F2F2F2;
+      padding: 0 0 80px 0;
+
+      &-worked {
+        display: flex;
+
+        &-title {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+    &-scheme {
+      height: 500px;
+    }
+  }
+}
