@@ -726,23 +726,27 @@ button:active, button:focus {
         font-size: 2rem;
         color: #E0E0E0; }
     .fifth-list-item-content {
-      padding: 48px 0 50px 30px; }
+      padding: 50px 0; }
       .fifth-list-item-content-text {
         font-size: 1.5rem;
-        padding-bottom: 13px;
-        list-style-type: none; }
+        list-style-type: none;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0 10px 13px; }
         .fifth-list-item-content-text:before {
           content: '\2714';
           color: #6FCF97;
           font-weight: 900;
-          margin-left: -15px; }
+          margin-right: 10px; }
         .fifth-list-item-content-text-no {
           color: #E0E0E0; }
           .fifth-list-item-content-text-no:before {
             content: '\2716';
             color: #E0E0E0;
             font-weight: bold;
-            margin-left: -15px; }
+            margin-right: 10px; }
     .fifth-list-item-wrap {
       width: 70%;
       margin: 0 auto;

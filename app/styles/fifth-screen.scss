@@ -96,18 +96,20 @@
       }
 
       &-content {
-        padding: 48px 0 50px 30px;
+        padding: 50px 0 ;
 
         &-text {
           font-size: 1.5rem;
-          padding-bottom: 13px;
           list-style-type: none;
+          display: flex;
+          padding: 0 10px 13px;
+
 
           &:before {
             content: '\2714';
             color: #6FCF97;
             font-weight: 900;
-            margin-left: -15px;
+            margin-right: 10px;
           }
 
           &-no {
@@ -117,7 +119,7 @@
               content: '\2716';
               color: #E0E0E0;
               font-weight: bold;
-              margin-left: -15px;
+              margin-right: 10px;
             }
           }
         }
