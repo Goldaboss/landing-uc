@@ -596,7 +596,7 @@ button:active, button:focus {
   background: #f9f9f9 url("../../img/Section-4bg.jpg") no-repeat; }
 
 .fourth__header {
-  padding: 285px 0 95px 0;
+  padding: 285px 0 90px 0;
   margin: 0; }
   .fourth__header-title {
     font-size: 3.5rem;
@@ -616,19 +616,48 @@ button:active, button:focus {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 1px solid #F2F2F2;
-    padding: 0 0 80px 0; }
+    padding: 0 90px 80px 70px; }
     .fourth__main-header-worked {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
+      .fourth__main-header-worked-symbol {
+        color: #000000;
+        opacity: 0.05;
+        font-size: 6rem;
+        font-weight: bold;
+        line-height: 0;
+        padding-right: 40px; }
+        .fourth__main-header-worked-symbol-big {
+          font-size: 9rem; }
       .fourth__main-header-worked-title {
         font-size: 2rem;
-        font-weight: bold; }
+        font-weight: bold;
+        margin: 0; }
+    .fourth__main-header-button {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    .fourth__main-header-btn {
+      border: none;
+      background: none;
+      font-size: 2rem;
+      color: #BDBDBD;
+      padding: 0 0 0 40px;
+      line-height: 0; }
+      .fourth__main-header-btn-active {
+        background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
+        background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
+        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
   .fourth__main-scheme {
     height: 500px; }
 
