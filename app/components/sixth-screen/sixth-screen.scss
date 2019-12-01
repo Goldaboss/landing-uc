@@ -1,0 +1,87 @@
+.sixth {
+
+  &__main {
+    padding: 165px 116px 5px;
+    display: flex;
+
+    &-img {
+      background: url("../../img/Server.png") no-repeat;
+      border-radius: 50%;
+      width: 714px;
+      flex-shrink: 0;
+      margin-right: 115px;
+    }
+
+    &-content {
+        padding: 115px 0 0 0;
+
+      &-title {
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding: 0 0 75px 0;
+        margin: 0;
+
+        &-mini {
+          font-size: 1.5rem;
+          font-weight: bold;
+          padding: 0 0 20px 0;
+          margin: 0;
+        }
+      }
+
+      &-text {
+        font-size: 1.1625rem;
+        padding: 0 180px 80px 0;
+      }
+
+      &-btn {
+        border: none;
+        font-size: 1.5rem;
+        background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+        box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
+        color: #ffffff;
+        padding: 22px 68px;
+        border-radius: 50px;
+      }
+    }
+  }
+
+  &__footer {
+    background-image: url("../../img/Footer-bg.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 295px 106px 75px;
+
+    &-contacts{
+      display: flex;
+
+      &-phone {
+        font-size: 1.5rem;
+        padding-right: 35px;
+      }
+
+      &-mail {
+        font-size: 1.5rem;
+        font-weight: normal;
+        color: #9AD7FF;
+        text-decoration: underline;
+      }
+    }
+
+    &-info {
+      display: flex;
+
+      &-firm {
+        font-size: 1.5rem;
+        color: #BDBDBD;
+        padding-right: 35px;
+      }
+      
+      &-requisites {
+        font-size: 1.5rem;
+        color: #9AD7FF;
+        text-decoration: underline;
+      }  
+    }
+  }
+}

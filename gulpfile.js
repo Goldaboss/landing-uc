@@ -53,8 +53,8 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 });
 
 gulp.task('watch', function() {
-    gulp.watch('app/styles/**/*.scss', gulp.parallel('styles')); // Наблюдение за sass файлами
-    gulp.watch('app/**/*.html', gulp.parallel('html')); // Наблюдение за HTML файлами в корне проекта
+    gulp.watch('app/**/**/*.scss', gulp.parallel('styles')); // Наблюдение за sass файлами
+    gulp.watch('app/**/**/*.html', gulp.parallel('html')); // Наблюдение за HTML файлами в корне проекта
     gulp.watch('app/script.js', gulp.parallel('scripts')); // Наблюдение за главным JS файлом и за библиотеками
     gulp.watch('app/img/*', gulp.parallel('images')); // Наблюдение за картинками
 });

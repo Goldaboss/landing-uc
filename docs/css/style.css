@@ -638,8 +638,8 @@ button:active, button:focus {
 
 .fifth__bg-round {
   position: absolute;
-  width: 746px;
-  height: 746px;
+  width: 861px;
+  height: 861px;
   border-radius: 50%;
   opacity: 0.1;
   top: 250px;
@@ -648,17 +648,17 @@ button:active, button:focus {
     background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
     background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
     background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
-    left: -16%; }
+    left: -19%; }
   .fifth__bg-round-blue {
     background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
     background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
     background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
-    left: 28%; }
+    left: 27%; }
   .fifth__bg-round-orange {
     background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
     background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
     background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-    right: -16%; }
+    right: -19%; }
 
 .fifth-title {
   font-size: 3.5rem;
@@ -695,7 +695,6 @@ button:active, button:focus {
       text-align: center;
       padding: 45px 0 35px;
       margin: 0;
-      border-bottom: 1.33333px solid #F2F2F2;
       border-radius: 21.3333px 21.3333px 0 0; }
     .fifth-list-item-min {
       background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
@@ -720,8 +719,10 @@ button:active, button:focus {
       display: block;
       text-align: center;
       border-bottom: 1.33333px solid #F2F2F2;
+      border-top: 1.33333px solid #F2F2F2;
       padding: 40px 11px 40px;
-      white-space: nowrap; }
+      white-space: nowrap;
+      margin: 0 26px; }
       .fifth-list-item-price-text {
         font-size: 2rem;
         color: #E0E0E0; }
@@ -809,4 +810,88 @@ button:active, button:focus {
   padding: 21px 40px;
   -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
           box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
-  margin: 0 auto; }
+  margin: 0 auto 130px; }
+
+.fifth__footer-line {
+  background: #F2F2F2;
+  height: 1.3px;
+  margin: 0 90px 0; }
+
+.sixth__main {
+  padding: 165px 116px 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .sixth__main-img {
+    background: url("../../img/Server.png") no-repeat;
+    border-radius: 50%;
+    width: 714px;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    margin-right: 115px; }
+  .sixth__main-content {
+    padding: 115px 0 0 0; }
+    .sixth__main-content-title {
+      font-size: 3.5rem;
+      font-weight: bold;
+      padding: 0 0 75px 0;
+      margin: 0; }
+      .sixth__main-content-title-mini {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0 0 20px 0;
+        margin: 0; }
+    .sixth__main-content-text {
+      font-size: 1.1625rem;
+      padding: 0 180px 80px 0; }
+    .sixth__main-content-btn {
+      border: none;
+      font-size: 1.5rem;
+      background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+      background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
+      background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+      -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
+              box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
+      color: #ffffff;
+      padding: 22px 68px;
+      border-radius: 50px; }
+
+.sixth__footer {
+  background-image: url("../../img/Footer-bg.png");
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 295px 106px 75px; }
+  .sixth__footer-contacts {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .sixth__footer-contacts-phone {
+      font-size: 1.5rem;
+      padding-right: 35px; }
+    .sixth__footer-contacts-mail {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #9AD7FF;
+      text-decoration: underline; }
+  .sixth__footer-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .sixth__footer-info-firm {
+      font-size: 1.5rem;
+      color: #BDBDBD;
+      padding-right: 35px; }
+    .sixth__footer-info-requisites {
+      font-size: 1.5rem;
+      color: #9AD7FF;
+      text-decoration: underline; }

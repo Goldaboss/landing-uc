@@ -4,12 +4,13 @@
     position: relative;
     overflow: hidden;
   }
+
   &__bg {
 
     &-round {
       position: absolute;
-      width: 746px;
-      height: 746px;
+      width: 861px;
+      height: 861px;
       border-radius: 50%;
       opacity: 0.1;
       top: 250px;
@@ -17,15 +18,15 @@
 
       &-green{
         background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
-        left: -16%;
+        left: -19%;
       }
       &-blue {
         background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
-        left: 28%;
+        left: 27%;
       }
       &-orange {
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-        right: -16%;
+        right: -19%;
       }
     }
   }
@@ -59,7 +60,6 @@
         text-align: center;
         padding: 45px 0 35px;
         margin: 0;
-        border-bottom: 1.33333px solid #F2F2F2;
         border-radius: 21.3333px 21.3333px 0 0 ;
       }
 
@@ -86,8 +86,10 @@
         display: block;
         text-align: center;
         border-bottom: 1.33333px solid #F2F2F2;
+        border-top: 1.33333px solid #F2F2F2;
         padding: 40px 11px 40px;
         white-space: nowrap;
+        margin: 0 26px;
 
         &-text {
           font-size: 2rem;
@@ -187,6 +189,15 @@
     border: none;
     padding: 21px 40px;
     box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
-    margin: 0 auto;
+    margin: 0 auto 130px;
+  }
+  &__footer {
+
+    &-line {
+      background: #F2F2F2;
+      height: 1.3px;
+      margin: 0 90px 0;
+
+    }
   }
 }
