@@ -505,7 +505,7 @@ button:active, button:focus {
   margin: 0 auto; }
 
 .third__bg {
-  background: url("../../img/Could.png") no-repeat 890px 200px; }
+  background: url("../img/Could.png") no-repeat 890px 200px; }
 
 .third__header {
   padding-top: 100px; }
