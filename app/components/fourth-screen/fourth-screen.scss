@@ -2,6 +2,7 @@
 
   &__bg {
     background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat;
+    height: 100%;
   }
 
   &__header {
@@ -30,7 +31,7 @@
       display: flex;
       justify-content: space-between;
       border-bottom: 1px solid #F2F2F2;
-      padding: 0 90px 80px 70px;
+      padding: 0 90px 90px 70px;
 
       &-worked {
         display: flex;
@@ -76,7 +77,79 @@
     }
 
     &-scheme {
-      height: 500px;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 0 135px 0;
+
+      &-left {
+        font-size: 2rem;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      &-center {
+
+        &-list {
+          display: flex;
+          flex-wrap: wrap;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+        }
+
+        &-icon {
+          width: 50%;
+
+          padding: 50px 0 5px 0;
+          font-size: 5.125rem;
+          color: #E0E0E0;;
+        }
+
+        &-text {
+          font-size: 1.5rem;
+          width: 50%;
+          display: block;
+          padding: 25px 105px 135px;
+        }
+
+        &-top {
+          border-top: 1.2968px solid #1D1D1B;
+
+          &-right {
+            border-top-right-radius: 50px;
+          }
+          &-left {
+            border-top-left-radius: 50px;
+          }
+        }
+
+        &-bottom{
+          border-bottom: 1.2968px solid #1D1D1B;
+
+          &-left {
+            border-bottom-left-radius: 50px;
+          }
+          &-right {
+            border-bottom-right-radius: 50px;
+          }
+        }
+
+        &-left {
+          border-left: 1.2968px solid #1D1D1B;
+        }
+
+        &-right {
+          border-right: 1.2968px solid #1D1D1B;
+        }
+      }
+
+      &-right {
+        font-size: 2rem;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 95px;
+      }
+
     }
   }
 }

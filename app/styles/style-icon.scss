@@ -26,40 +26,64 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Union-7 {
+  &:before {
+    content: $icon-Union-7;
+  }
+}
+.icon-Union-8 {
+  &:before {
+    content: $icon-Union-8;
+  }
+}
+.icon-Union-9 {
+  &:before {
+    content: $icon-Union-9;
+  }
+}
+.icon-Union-10 {
+  &:before {
+    content: $icon-Union-10;
+  }
+}
+.icon-Union-11 {
+  &:before {
+    content: $icon-Union-11;
+  }
+}
+.icon-Union-12 {
+  &:before {
+    content: $icon-Union-12;
+  }
+}
 .icon-Union-1 {
   &:before {
     content: $icon-Union-1;
-    color: #2e5473;
   }
 }
 .icon-Union-2 {
   &:before {
     content: $icon-Union-2;
-    color: #2e5473;
   }
 }
 .icon-Union-3 {
   &:before {
     content: $icon-Union-3;
-    color: #2e5473;
   }
 }
 .icon-Union-4 {
   &:before {
     content: $icon-Union-4;
-    color: #2e5473;
   }
 }
 .icon-Union-5 {
   &:before {
     content: $icon-Union-5;
-    color: #2e5473;
   }
 }
 .icon-Union-6 {
   &:before {
     content: $icon-Union-6;
-    color: #2e5473;
   }
 }
 .icon-1 {
@@ -127,3 +151,4 @@
     content: $icon-13;
   }
 }
+
