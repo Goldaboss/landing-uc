@@ -593,7 +593,7 @@ button:active, button:focus {
         line-height: 1.8125rem; }
 
 .fourth__bg {
-  background: #f9f9f9 url("../../img/Section-4bg.jpg") no-repeat; }
+  background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat; }
 
 .fourth__header {
   padding: 285px 0 90px 0;
@@ -853,7 +853,7 @@ button:active, button:focus {
   display: -ms-flexbox;
   display: flex; }
   .sixth__main-img {
-    background: url("../../img/Server.png") no-repeat;
+    background: url("../img/Server.png") no-repeat;
     border-radius: 50%;
     width: 714px;
     height: 714px;
