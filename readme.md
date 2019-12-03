@@ -1,1 +1,1 @@
-Goldaboss.GitHub.io/landing-uc/
+Goldaboss.github.io/landing-uc/
