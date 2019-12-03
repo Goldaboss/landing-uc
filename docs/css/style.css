@@ -679,7 +679,7 @@ button:active, button:focus {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 0 45px 0; }
+    padding: 0 0 115px 0; }
     .fourth__main-scheme-left {
       font-size: 2rem;
       padding: 240px 10px 0 20px;
@@ -803,7 +803,7 @@ button:active, button:focus {
 .fifth-title {
   font-size: 3.5rem;
   font-weight: bold;
-  padding: 113px 0 68px;
+  padding: 40px 0 68px;
   text-align: center;
   margin: 0; }
 
