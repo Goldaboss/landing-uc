@@ -126,6 +126,10 @@
           padding: 25px 105px 130px;
           position: relative;
 
+          &-margin {
+            margin-top: -1px;
+          }
+
           &:before {
             content: '';
             position: absolute;

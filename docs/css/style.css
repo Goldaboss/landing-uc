@@ -338,10 +338,6 @@ button:active, button:focus {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-top: 57px;
   padding-bottom: 156px; }
 
@@ -362,7 +358,8 @@ button:active, button:focus {
   height: 75px;
   font-weight: bold;
   background-color: #fff;
-  border-radius: 69px; }
+  border-radius: 69px;
+  margin-right: 217px; }
 
 .first__menu {
   display: -webkit-box;
@@ -375,11 +372,18 @@ button:active, button:focus {
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .first__menu-link {
     font-size: 1.5rem;
     color: #fff;
-    padding-right: 64px;
     text-decoration: none;
     white-space: nowrap; }
     .first__menu-link--free {
@@ -722,6 +726,8 @@ button:active, button:focus {
       display: block;
       padding: 25px 105px 130px;
       position: relative; }
+      .fourth__main-scheme-center-text-margin {
+        margin-top: -1px; }
       .fourth__main-scheme-center-text:before {
         content: '';
         position: absolute;

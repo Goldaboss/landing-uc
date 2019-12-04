@@ -8,7 +8,6 @@
 
   &__header{
     display: flex;
-    justify-content: space-between;
     padding-top: 57px;
     padding-bottom: 156px;
   }
@@ -22,6 +21,7 @@
     font-weight: bold;
     background-color: $whiteColor;
     border-radius: 69px;
+    margin-right: 217px;
   }
 
   &__menu {
@@ -30,11 +30,12 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    flex-grow: 1;
+    justify-content: space-between;
 
     &-link {
       font-size: 1.5rem;
       color: $whiteColor;
-      padding-right: 64px;
       text-decoration: none;
       white-space: nowrap;
 
