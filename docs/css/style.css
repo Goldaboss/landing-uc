@@ -690,19 +690,6 @@ button:active, button:focus {
       line-height: 2.5rem;
       width: 18%;
       position: relative; }
-      .fourth__main-scheme-left:before {
-        content: '';
-        position: absolute;
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        top: 167px;
-        border: 1px solid black;
-        right: 0;
-        background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
-        background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
-        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%); }
     .fourth__main-scheme-center-list {
       display: -webkit-box;
       display: -webkit-flex;
@@ -739,6 +726,32 @@ button:active, button:focus {
         top: -10px;
         border: 1px solid black;
         background: #F9F9F9; }
+      .fourth__main-scheme-center-text-first:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        left: 0;
+        top: -10px;
+        border: 1px solid black;
+        background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
+        background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
+        background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%); }
+      .fourth__main-scheme-center-text-last:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        top: -10px;
+        right: 0;
+        border: 1px solid black;
+        background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
+        background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
+        background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%); }
     .fourth__main-scheme-center-top {
       border-top: 1.2968px solid #1D1D1B; }
       .fourth__main-scheme-center-top-right {
@@ -764,19 +777,6 @@ button:active, button:focus {
       padding-top: 850px;
       text-align: end;
       position: relative; }
-      .fourth__main-scheme-right:before {
-        content: '';
-        position: absolute;
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        left: 0;
-        bottom: 290px;
-        border: 1px solid black;
-        background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
-        background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
-        background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%); }
 
 .fifth .container {
   position: relative;
