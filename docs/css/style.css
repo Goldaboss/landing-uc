@@ -339,7 +339,11 @@ button:active, button:focus {
   display: -ms-flexbox;
   display: flex;
   padding-top: 57px;
-  padding-bottom: 156px; }
+  padding-bottom: 156px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .first__logo {
   display: -webkit-box;
@@ -354,18 +358,18 @@ button:active, button:focus {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 228px;
+  width: 15%;
   height: 75px;
   font-weight: bold;
   background-color: #fff;
-  border-radius: 69px;
-  margin-right: 217px; }
+  border-radius: 69px; }
 
 .first__menu {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 75%;
   list-style: none;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -373,10 +377,6 @@ button:active, button:focus {
           align-items: center;
   margin: 0;
   padding: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -609,8 +609,7 @@ button:active, button:focus {
         line-height: 1.8125rem; }
 
 .fourth__bg {
-  background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat;
-  height: 100%; }
+  background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat; }
 
 .fourth__header {
   padding: 285px 0 0 0;
@@ -971,7 +970,6 @@ button:active, button:focus {
   display: flex; }
   .sixth__main-img {
     background: url("../img/Server.png") no-repeat;
-    border-radius: 50%;
     width: 714px;
     height: 714px;
     -webkit-flex-shrink: 0;
@@ -979,7 +977,7 @@ button:active, button:focus {
             flex-shrink: 0;
     margin-right: 115px; }
   .sixth__main-content {
-    padding: 115px 0 0 0; }
+    padding: 110px 0 0 0; }
     .sixth__main-content-title {
       font-size: 3.5rem;
       font-weight: bold;
@@ -992,7 +990,8 @@ button:active, button:focus {
         margin: 0; }
     .sixth__main-content-text {
       font-size: 1.1625rem;
-      padding: 0 180px 80px 0; }
+      line-height: 1.4375rem;
+      padding: 0 180px 90px 0; }
     .sixth__main-content-btn {
       border: none;
       font-size: 1.5rem;
@@ -1002,11 +1001,14 @@ button:active, button:focus {
       -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
               box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
       color: #ffffff;
-      padding: 22px 68px;
+      padding: 20px 70px;
       border-radius: 50px; }
 
-.sixth__footer {
-  background-image: url("../../img/Footer-bg.png");
+.sixth__footer-bg {
+  background-image: url("../img/Footer-bg.png");
+  padding: 295px 0 75px; }
+
+.sixth__footer-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1014,31 +1016,30 @@ button:active, button:focus {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 295px 106px 75px; }
-  .sixth__footer-contacts {
+          justify-content: space-between; }
+  .sixth__footer-content-contacts {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    .sixth__footer-contacts-phone {
+    .sixth__footer-content-contacts-phone {
       font-size: 1.5rem;
-      padding-right: 35px; }
-    .sixth__footer-contacts-mail {
+      padding: 0 35px 0 0; }
+    .sixth__footer-content-contacts-mail {
       font-size: 1.5rem;
       font-weight: normal;
       color: #9AD7FF;
       text-decoration: underline; }
-  .sixth__footer-info {
+  .sixth__footer-content-info {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    .sixth__footer-info-firm {
+    .sixth__footer-content-info-firm {
       font-size: 1.5rem;
       color: #BDBDBD;
-      padding-right: 35px; }
-    .sixth__footer-info-requisites {
+      padding: 0 35px 0 0; }
+    .sixth__footer-content-info-requisites {
       font-size: 1.5rem;
       color: #9AD7FF;
       text-decoration: underline; }

@@ -2,7 +2,6 @@
 
   &__bg {
     background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat;
-    height: 100%;
   }
 
   &__header {
@@ -86,19 +85,6 @@
         line-height: 2.5rem;
         width: 18%;
         position: relative;
-
-        //&:before {
-        //  content: '';
-        //  position: absolute;
-        //  display: block;
-        //  width: 20px;
-        //  height: 20px;
-        //  border-radius: 50%;
-        //  top: 167px;;
-        //  border: 1px solid black;
-        //  right: 0;
-        //  background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
-        //}
       }
 
       &-center {
@@ -211,19 +197,6 @@
         padding-top: 850px;
         text-align: end;
         position: relative;
-
-        //&:before {
-        //  content: '';
-        //  position: absolute;
-        //  display: block;
-        //  width: 20px;
-        //  height: 20px;
-        //  border-radius: 50%;
-        //  left: 0;
-        //  bottom: 290px;
-        //  border: 1px solid black;
-        //  background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
-        //}
       }
     }
   }
