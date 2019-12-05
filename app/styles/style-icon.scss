@@ -26,6 +26,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Union-19 {
+  &:before {
+    content: $icon-Union-19;
+  }
+}
+.icon-Union-20 {
+  &:before {
+    content: $icon-Union-20;
+  }
+}
+.icon-Union-15 {
+  &:before {
+    content: $icon-Union-15;
+  }
+}
+.icon-Union-13 {
+  &:before {
+    content: $icon-Union-13;
+  }
+}
+.icon-Union-14 {
+  &:before {
+    content: $icon-Union-14;
+  }
+}
+.icon-Union-16 {
+  &:before {
+    content: $icon-Union-16;
+  }
+}
+.icon-Union-17 {
+  &:before {
+    content: $icon-Union-17;
+  }
+}
+.icon-Mouse {
+  &:before {
+    content: $icon-Mouse;
+  }
+}
 .icon-Union-7 {
   &:before {
     content: $icon-Union-7;
@@ -151,4 +191,3 @@
     content: $icon-13;
   }
 }
-

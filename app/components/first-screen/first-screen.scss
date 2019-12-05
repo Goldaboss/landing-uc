@@ -4,6 +4,14 @@
 
   &__bg {
     background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%);
+
+    .icon-Mouse{
+      font-size: 3.3rem;
+      color: #C4C4C4;
+      display: block;
+      text-align: center;
+      padding-bottom: 70px;
+    }
   }
 
   &__header{
@@ -18,7 +26,6 @@
     justify-content: center;
     align-items: center;
     width: 15%;
-    height: 75px;
     font-weight: bold;
     background-color: $whiteColor;
     border-radius: 69px;
@@ -26,7 +33,7 @@
 
   &__menu {
     display: flex;
-    width: 75%;
+    width: 74%;
     list-style: none;
     align-items: center;
     margin: 0;
@@ -54,7 +61,7 @@
   &__main {
     display: flex;
     justify-content: space-between;
-    padding: 0 157px 0 93px;
+    padding: 0 157px 130px 93px;
 
     &-title {
       font-weight: bold;
@@ -76,7 +83,6 @@
       font-size: 1.5rem;
       color: $whiteColor;
       margin: 0;
-      padding: 0 0 300px 0;
     }
   }
 }

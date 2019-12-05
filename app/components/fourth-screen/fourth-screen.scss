@@ -79,11 +79,15 @@
       display: flex;
       padding: 0 0 115px 0;
 
+      &-none{
+        display: none;
+      }
+
       &-left {
         font-size: 2rem;
         padding: 240px 10px 0 20px;
         line-height: 2.5rem;
-        width: 18%;
+        min-width: 21%;
         position: relative;
       }
 
@@ -103,6 +107,12 @@
           padding: 50px 0 5px 0;
           font-size: 5.125rem;
           color: #E0E0E0;
+
+          &-full{
+            width: 100%;
+            margin-left: 90px;
+            padding: 50px 145px 5px 0px;
+          }
         }
 
         &-text {
@@ -111,6 +121,8 @@
           display: block;
           padding: 25px 105px 130px;
           position: relative;
+
+
 
           &-margin {
             margin-top: -1px;
@@ -127,6 +139,25 @@
             top: -10px;
             border: 1px solid black;
             background: #F9F9F9;
+          }
+
+          &-full {
+            width: 100%;
+            margin-right: 90px;
+            padding: 25px 115px 130px 170px;
+
+            &:before{
+              content: '';
+              position: absolute;
+              display: block;
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+              left: 51%;
+              top: -10px;
+              border: 1px solid black;
+              background: #F9F9F9;
+            }
           }
 
           &-first {

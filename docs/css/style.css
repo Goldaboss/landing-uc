@@ -232,6 +232,30 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-Union-19:before {
+  content: ""; }
+
+.icon-Union-20:before {
+  content: ""; }
+
+.icon-Union-15:before {
+  content: ""; }
+
+.icon-Union-13:before {
+  content: ""; }
+
+.icon-Union-14:before {
+  content: ""; }
+
+.icon-Union-16:before {
+  content: ""; }
+
+.icon-Union-17:before {
+  content: ""; }
+
+.icon-Mouse:before {
+  content: ""; }
+
 .icon-Union-7:before {
   content: ""; }
 
@@ -332,6 +356,12 @@ button:active, button:focus {
 .first__bg {
   background: -o-linear-gradient(209.93deg, #3498DB 0%, #2C3E50 100%);
   background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%); }
+  .first__bg .icon-Mouse {
+    font-size: 3.3rem;
+    color: #C4C4C4;
+    display: block;
+    text-align: center;
+    padding-bottom: 70px; }
 
 .first__header {
   display: -webkit-box;
@@ -359,7 +389,6 @@ button:active, button:focus {
       -ms-flex-align: center;
           align-items: center;
   width: 15%;
-  height: 75px;
   font-weight: bold;
   background-color: #fff;
   border-radius: 69px; }
@@ -369,7 +398,7 @@ button:active, button:focus {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 75%;
+  width: 74%;
   list-style: none;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -404,7 +433,7 @@ button:active, button:focus {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 157px 0 93px; }
+  padding: 0 157px 130px 93px; }
   .first__main-title {
     font-weight: bold;
     font-size: 4rem;
@@ -420,8 +449,7 @@ button:active, button:focus {
   .first__main-text {
     font-size: 1.5rem;
     color: #fff;
-    margin: 0;
-    padding: 0 0 300px 0; }
+    margin: 0; }
 
 .second__bg {
   position: relative;
@@ -683,11 +711,13 @@ button:active, button:focus {
     display: -ms-flexbox;
     display: flex;
     padding: 0 0 115px 0; }
+    .fourth__main-scheme-none {
+      display: none; }
     .fourth__main-scheme-left {
       font-size: 2rem;
       padding: 240px 10px 0 20px;
       line-height: 2.5rem;
-      width: 18%;
+      min-width: 21%;
       position: relative; }
     .fourth__main-scheme-center-list {
       display: -webkit-box;
@@ -706,6 +736,10 @@ button:active, button:focus {
       padding: 50px 0 5px 0;
       font-size: 5.125rem;
       color: #E0E0E0; }
+      .fourth__main-scheme-center-icon-full {
+        width: 100%;
+        margin-left: 90px;
+        padding: 50px 145px 5px 0px; }
     .fourth__main-scheme-center-text {
       font-size: 1.5rem;
       width: 50%;
@@ -725,6 +759,21 @@ button:active, button:focus {
         top: -10px;
         border: 1px solid black;
         background: #F9F9F9; }
+      .fourth__main-scheme-center-text-full {
+        width: 100%;
+        margin-right: 90px;
+        padding: 25px 115px 130px 170px; }
+        .fourth__main-scheme-center-text-full:before {
+          content: '';
+          position: absolute;
+          display: block;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          left: 51%;
+          top: -10px;
+          border: 1px solid black;
+          background: #F9F9F9; }
       .fourth__main-scheme-center-text-first:after {
         content: '';
         position: absolute;
