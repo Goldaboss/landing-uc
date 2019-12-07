@@ -361,7 +361,12 @@ button:active, button:focus {
     color: #C4C4C4;
     display: block;
     text-align: center;
-    padding-bottom: 70px; }
+    padding-bottom: 70px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ecebeb), color-stop(50%, #2f6389), to(#2f6287));
+    background: -o-linear-gradient(top, #ecebeb 0%, #2f6389 50%, #2f6287 100%);
+    background: linear-gradient(180deg, #ecebeb 0%, #2f6389 50%, #2f6287 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 .first__header {
   display: -webkit-box;
@@ -637,7 +642,7 @@ button:active, button:focus {
         line-height: 1.8125rem; }
 
 .fourth__bg {
-  background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat; }
+  background: url("../img/Section-4bg.jpg") no-repeat 100%; }
 
 .fourth__header {
   padding: 285px 0 0 0;
@@ -720,6 +725,7 @@ button:active, button:focus {
       min-width: 21%;
       position: relative; }
     .fourth__main-scheme-center-list {
+      position: relative;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -735,16 +741,39 @@ button:active, button:focus {
       width: 50%;
       padding: 50px 0 5px 0;
       font-size: 5.125rem;
-      color: #E0E0E0; }
+      color: #E0E0E0;
+      position: relative; }
       .fourth__main-scheme-center-icon-full {
         width: 100%;
         margin-left: 90px;
         padding: 50px 145px 5px 0px; }
+      .fourth__main-scheme-center-icon-first {
+        position: absolute;
+        font-size: 6rem;
+        top: 135px;
+        left: -135px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
+        background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
+        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        opacity: 0.1;
+        padding: 50px;
+        border-radius: 50%; }
+      .fourth__main-scheme-center-icon-last {
+        position: absolute;
+        font-size: 6rem;
+        bottom: -40px;
+        right: -145px;
+        background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
+        background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
+        background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+        opacity: 0.1;
+        padding: 50px;
+        border-radius: 50%; }
     .fourth__main-scheme-center-text {
       font-size: 1.5rem;
       width: 50%;
       display: block;
-      padding: 25px 105px 130px;
+      padding: 25px 105px 115px;
       position: relative; }
       .fourth__main-scheme-center-text-margin {
         margin-top: -1px; }

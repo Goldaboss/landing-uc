@@ -1,7 +1,7 @@
 .fourth {
 
   &__bg {
-    background: #f9f9f9 url("../img/Section-4bg.jpg") no-repeat;
+    background:  url("../img/Section-4bg.jpg") no-repeat 100%;
   }
 
   &__header {
@@ -94,6 +94,7 @@
       &-center {
 
         &-list {
+          position: relative;
           display: flex;
           flex-wrap: wrap;
           list-style: none;
@@ -107,11 +108,34 @@
           padding: 50px 0 5px 0;
           font-size: 5.125rem;
           color: #E0E0E0;
+          position: relative;
 
           &-full{
             width: 100%;
             margin-left: 90px;
             padding: 50px 145px 5px 0px;
+          }
+
+          &-first {
+            position: absolute;
+            font-size: 6rem;
+            top: 135px;
+            left: -135px;
+            background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+            opacity: 0.1;
+            padding: 50px;
+            border-radius: 50%;
+          }
+
+          &-last {
+            position: absolute;
+            font-size: 6rem;
+            bottom: -40px;
+            right: -145px;
+            background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+            opacity: 0.1;
+            padding: 50px;
+            border-radius: 50%;
           }
         }
 
@@ -119,7 +143,7 @@
           font-size: 1.5rem;
           width: 50%;
           display: block;
-          padding: 25px 105px 130px;
+          padding: 25px 105px 115px;
           position: relative;
 
 
@@ -232,3 +256,4 @@
     }
   }
 }
+
