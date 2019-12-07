@@ -356,17 +356,6 @@ button:active, button:focus {
 .first__bg {
   background: -o-linear-gradient(209.93deg, #3498DB 0%, #2C3E50 100%);
   background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%); }
-  .first__bg .icon-Mouse {
-    font-size: 3.3rem;
-    color: #C4C4C4;
-    display: block;
-    text-align: center;
-    padding-bottom: 70px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ecebeb), color-stop(50%, #2f6389), to(#2f6287));
-    background: -o-linear-gradient(top, #ecebeb 0%, #2f6389 50%, #2f6287 100%);
-    background: linear-gradient(180deg, #ecebeb 0%, #2f6389 50%, #2f6287 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
 
 .first__header {
   display: -webkit-box;
@@ -438,7 +427,11 @@ button:active, button:focus {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 157px 130px 93px; }
+  padding: 0 157px 130px 93px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .first__main-title {
     font-weight: bold;
     font-size: 4rem;
@@ -455,6 +448,56 @@ button:active, button:focus {
     font-size: 1.5rem;
     color: #fff;
     margin: 0; }
+  .first__main-img {
+    position: relative; }
+    .first__main-img-arrow {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      -webkit-transform-origin: 21% 79%;
+          -ms-transform-origin: 21% 79%;
+              transform-origin: 21% 79%;
+      -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+              transform: rotate(0deg);
+      margin-top: -30%;
+      width: 50%;
+      -webkit-animation: clockArrow 60s linear infinite;
+              animation: clockArrow 60s linear infinite; }
+
+.first__footer {
+  text-align: center;
+  padding-bottom: 70px; }
+  .first__footer-btn {
+    border: none;
+    padding: 0;
+    background: transparent; }
+
+.first .icon-Mouse {
+  font-size: 3.3rem;
+  color: #C4C4C4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ecebeb), to(#2f6287));
+  background: -o-linear-gradient(top, #ecebeb 0%, #2f6287 100%);
+  background: linear-gradient(180deg, #ecebeb 0%, #2f6287 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.7; }
+
+@-webkit-keyframes clockArrow {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes clockArrow {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 .second__bg {
   position: relative;

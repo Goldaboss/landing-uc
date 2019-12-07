@@ -4,18 +4,8 @@
 
   &__bg {
     background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%);
-
-    .icon-Mouse{
-      font-size: 3.3rem;
-      color: #C4C4C4;
-      display: block;
-      text-align: center;
-      padding-bottom: 70px;
-      background: linear-gradient(180deg, #ecebeb 0%, #2f6389 50%, #2f6287 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
   }
+
 
   &__header{
     display: flex;
@@ -65,6 +55,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 157px 130px 93px;
+    align-items: center;
 
     &-title {
       font-weight: bold;
@@ -87,5 +78,45 @@
       color: $whiteColor;
       margin: 0;
     }
+
+    &-img {
+     position: relative;
+
+      &-arrow {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform-origin: 21% 79%;
+        transform: rotate(0deg);
+        margin-top: -30%;
+        width: 50%;
+        animation: clockArrow 60s linear infinite;
+      }
+    }
   }
+
+  &__footer {
+    text-align: center;
+    padding-bottom: 70px;
+
+    &-btn {
+      border: none;
+      padding: 0;
+      background: transparent;
+    }
+  }
+
+  .icon-Mouse {
+    font-size: 3.3rem;
+    color: #C4C4C4;
+    background: linear-gradient(180deg, #ecebeb 0%, #2f6287 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.7;
+  }
+}
+
+@keyframes clockArrow {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
 }
