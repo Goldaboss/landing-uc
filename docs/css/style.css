@@ -232,6 +232,9 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-Server:before {
+  content: ""; }
+
 .icon-Union-19:before {
   content: ""; }
 
@@ -758,7 +761,7 @@ button:active, button:focus {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 0 115px 0; }
+    padding: 0 0 90px 0; }
     .fourth__main-scheme-none {
       display: none; }
     .fourth__main-scheme-left {
@@ -1088,17 +1091,35 @@ button:active, button:focus {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .sixth__main-img {
-    background: url("../img/Server.png") no-repeat;
-    width: 714px;
-    height: 714px;
-    -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-            flex-shrink: 0;
-    margin-right: 115px; }
+    width: 50%;
+    font-size: 18.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .sixth__main-img-server {
+      padding: 200px;
+      background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+      background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
+      background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+      border-radius: 50%; }
   .sixth__main-content {
-    padding: 110px 0 0 0; }
+    padding: 110px 0 0 0;
+    width: 43%; }
     .sixth__main-content-title {
       font-size: 3.5rem;
       font-weight: bold;
@@ -1112,7 +1133,7 @@ button:active, button:focus {
     .sixth__main-content-text {
       font-size: 1.1625rem;
       line-height: 1.4375rem;
-      padding: 0 180px 90px 0; }
+      padding: 0 180px 65px 0; }
     .sixth__main-content-btn {
       border: none;
       font-size: 1.5rem;
@@ -1127,7 +1148,7 @@ button:active, button:focus {
 
 .sixth__footer-bg {
   background-image: url("../img/Footer-bg.png");
-  padding: 295px 0 75px; }
+  padding: 305px 0 75px; }
 
 .sixth__footer-content {
   display: -webkit-box;

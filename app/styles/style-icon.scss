@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Server {
+  &:before {
+    content: $icon-Server;
+  }
+}
 .icon-Union-19 {
   &:before {
     content: $icon-Union-19;

@@ -3,17 +3,26 @@
   &__main {
     padding: 165px 116px 5px;
     display: flex;
+    justify-content: space-between;
 
     &-img {
-      background: url("../img/Server.png") no-repeat;
-      width: 714px;
-      height: 714px;
-      flex-shrink: 0;
-      margin-right: 115px;
+      width: 50%;
+      font-size: 18.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      &-server {
+        padding: 200px;
+        background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+        border-radius: 50%;
+      }
     }
 
     &-content {
         padding: 110px 0 0 0;
+        width: 43%;
 
       &-title {
         font-size: 3.5rem;
@@ -32,7 +41,7 @@
       &-text {
         font-size: 1.1625rem;
         line-height: 1.4375rem;
-        padding: 0 180px 90px 0;
+        padding: 0 180px 65px 0;
       }
 
       &-btn {
@@ -51,7 +60,7 @@
 
     &-bg {
       background-image: url("../img/Footer-bg.png");
-      padding: 295px 0 75px;
+      padding: 305px 0 75px;
     }
 
     &-content {
