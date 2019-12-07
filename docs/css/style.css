@@ -1110,13 +1110,15 @@ button:active, button:focus {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    color: #ffffff; }
     .sixth__main-img-server {
       padding: 200px;
       background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
       background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
       background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-      border-radius: 50%; }
+      border-radius: 50%;
+      opacity: 0.5; }
   .sixth__main-content {
     padding: 110px 0 0 0;
     width: 43%; }

@@ -11,12 +11,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
+      color: #ffffff;
 
       &-server {
         padding: 200px;
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         border-radius: 50%;
+        opacity: 0.5;
       }
     }
 
