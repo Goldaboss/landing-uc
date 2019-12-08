@@ -356,6 +356,9 @@ img {
 button:active, button:focus {
   outline: none; }
 
+a:hover {
+  text-decoration: none; }
+
 .first__bg {
   background: -o-linear-gradient(209.93deg, #3498DB 0%, #2C3E50 100%);
   background: linear-gradient(240.07deg, #3498DB 0%, #2C3E50 100%); }
@@ -484,7 +487,8 @@ button:active, button:focus {
   background: linear-gradient(180deg, #ecebeb 0%, #2f6287 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0.7; }
+  opacity: 0.7;
+  text-decoration: none; }
 
 @-webkit-keyframes clockArrow {
   from {
