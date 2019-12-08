@@ -7,10 +7,10 @@
   }
 
 
-  &__header{
+  &__header {
     display: flex;
-    padding-top: 57px;
-    padding-bottom: 156px;
+    padding-top: 3.58rem;
+    padding-bottom: 9.75rem;
     justify-content: space-between;
   }
 
@@ -45,7 +45,7 @@
         background-color: $whiteColor;
         font-weight: bold;
         border: none;
-        padding: 19px 39px;
+        padding: 1.1875rem 2.5rem;
         border-radius: 69px;
       }
     }
@@ -54,14 +54,14 @@
   &__main {
     display: flex;
     justify-content: space-between;
-    padding: 0 157px 130px 93px;
+    padding: 0 9.812rem 8.125rem 5.8125rem;
     align-items: center;
 
     &-title {
       font-weight: bold;
       font-size: 4rem;
       color: $whiteColor;
-      padding:48px 0 195px;
+      padding: 3rem 0 12.15rem;
       margin: 0;
 
       &-little {
@@ -97,7 +97,7 @@
 
   &__footer {
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
 
     &-btn {
       border: none;
