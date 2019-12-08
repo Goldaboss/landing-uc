@@ -609,16 +609,16 @@ a:hover {
   margin: 0 auto; }
 
 .third__bg {
-  background: url("../img/Could.png") no-repeat 890px 200px; }
+  background: url("../img/Could.png") no-repeat 55.625rem 12.5rem; }
 
 .third__header {
-  padding-top: 100px; }
+  padding-top: 6.25rem; }
   .third__header-title {
     font-size: 3.5rem;
     color: #333333;
     text-align: center;
     font-weight: bold;
-    padding: 0 0 93px 0;
+    padding: 0 0 5.8125rem 0;
     margin: 0; }
 
 .third__main {
@@ -626,14 +626,14 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 116px; }
+  padding-bottom: 7.25rem; }
   .third__main-video {
-    width: 1045px;
+    width: 65.3125rem;
     -webkit-flex-shrink: 0;
         -ms-flex-negative: 0;
             flex-shrink: 0; }
   .third__main-capabilities {
-    padding: 50px 0 30px 15px;
+    padding: 3.125rem 0 1.875rem 0.9375rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -646,7 +646,7 @@ a:hover {
     .third__main-capabilities-title {
       font-size: 2rem;
       font-weight: bold;
-      padding: 0 0 45px 20px;
+      padding: 0 2.8125rem 1.25rem;
       margin: 0; }
     .third__main-capabilities-list {
       padding: 0 0 0 5px;
@@ -683,7 +683,7 @@ a:hover {
         font-size: 2.5rem;
         line-height: 1;
         color: #2E5473;
-        width: 80px;
+        width: 5rem;
         -webkit-flex-shrink: 0;
             -ms-flex-negative: 0;
                 flex-shrink: 0;

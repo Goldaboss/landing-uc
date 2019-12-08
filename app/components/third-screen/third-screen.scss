@@ -1,40 +1,40 @@
 .third {
 
   &__bg {
-    background:  url("../img/Could.png") no-repeat 890px 200px;
+    background:  url("../img/Could.png") no-repeat 55.625rem 12.5rem;
   }
 
   &__header {
-    padding-top: 100px;
+    padding-top: 6.25rem;
 
     &-title {
       font-size: 3.5rem;
       color: #333333;
       text-align: center;
       font-weight: bold;
-      padding: 0 0 93px 0;
+      padding: 0 0 5.8125rem 0;
       margin: 0;
     }
   }
 
   &__main {
     display: flex;
-    padding-bottom: 116px;
+    padding-bottom: 7.25rem;
 
     &-video {
-      width: 1045px;
+      width: 65.3125rem;
       flex-shrink: 0;
     }
 
     &-capabilities {
-      padding: 50px 0 30px 15px;
+      padding: 3.125rem 0 1.875rem 0.9375rem;
       display: flex;
       flex-direction: column;
 
       &-title {
         font-size: 2rem;
         font-weight: bold;
-        padding: 0 0 45px 20px;
+        padding: 0 2.8125rem 1.25rem;
         margin: 0;
       }
 
@@ -59,7 +59,7 @@
           font-size: 2.5rem;
           line-height: 1;
           color: #2E5473;
-          width: 80px;
+          width: 5rem;
           flex-shrink: 0;
           display: block;
           margin: auto 0;
@@ -74,11 +74,7 @@
           font-size: 1.5rem;
           line-height: 1.8125rem;
         }
-
       }
-
-
-
     }
   }
 }
