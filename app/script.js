@@ -1,17 +1,9 @@
 $(document).ready(function(){
-    $("#menu").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1000);
-    });
+    $(".js-anchor-link").on("click", function (evt) {
+        evt.preventDefault();
+        const id  = $(this).attr("href"),
+              top = $(id).offset().top;
+        $("body,html").animate({scrollTop: top}, 500);
+    })
 });
 
-$(document).ready(function(){
-    $(".first__footer-btn").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 500);
-    });
-});

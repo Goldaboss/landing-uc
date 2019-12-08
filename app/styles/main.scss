@@ -27,3 +27,10 @@ button:active, button:focus {
 a:hover {
   text-decoration: none;
 }
+
+//медиа запросы
+@media (max-width: 1440px) {
+  html {
+    font-size: 12px;
+  }
+}
