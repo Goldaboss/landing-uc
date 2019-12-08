@@ -1,7 +1,7 @@
 .sixth {
 
   &__main {
-    padding: 165px 116px 5px;
+    padding: 10.3125rem 7.25rem 5px;
     display: flex;
     justify-content: space-between;
 
@@ -14,7 +14,7 @@
       color: #ffffff;
 
       &-server {
-        padding: 200px;
+        padding: 12.5rem;
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         border-radius: 50%;
         opacity: 0.5;
@@ -22,19 +22,19 @@
     }
 
     &-content {
-        padding: 110px 0 0 0;
+        padding: 6.875rem 0 0 0;
         width: 43%;
 
       &-title {
         font-size: 3.5rem;
         font-weight: bold;
-        padding: 0 0 75px 0;
+        padding: 0 0 4.6875rem 0;
         margin: 0;
 
         &-mini {
           font-size: 1.5rem;
           font-weight: bold;
-          padding: 0 0 20px 0;
+          padding: 0 0 1.25rem 0;
           margin: 0;
         }
       }
@@ -42,7 +42,7 @@
       &-text {
         font-size: 1.1625rem;
         line-height: 1.4375rem;
-        padding: 0 180px 65px 0;
+        padding: 0 5rem 4.0625rem 0;
       }
 
       &-btn {
@@ -51,8 +51,8 @@
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
         color: #ffffff;
-        padding: 20px 70px;
-        border-radius: 50px;
+        padding: 1.25rem 4.375rem;
+        border-radius: 3.125rem;
       }
     }
   }
@@ -61,7 +61,7 @@
 
     &-bg {
       background-image: url("../img/Footer-bg.png");
-      padding: 305px 0 75px;
+      padding: 19.0625rem 0 4.6875rem;
     }
 
     &-content {
@@ -73,7 +73,7 @@
 
         &-phone {
           font-size: 1.5rem;
-          padding: 0 35px 0 0;
+          padding: 0 2.1875rem 0 0;
         }
 
         &-mail {
@@ -90,7 +90,7 @@
         &-firm {
           font-size: 1.5rem;
           color: #BDBDBD;
-          padding: 0 35px 0 0;
+          padding: 0 2.1875rem 0 0;
         }
 
         &-requisites {
