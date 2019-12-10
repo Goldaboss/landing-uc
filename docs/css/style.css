@@ -782,17 +782,19 @@ a:hover {
       display: flex; }
     .fourth__main-header-btn {
       border: none;
-      background: none;
+      background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
+      background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
+      background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       font-size: 2rem;
       color: #BDBDBD;
       padding: 0 0 0 2.5rem;
       line-height: 0; }
       .fourth__main-header-btn-active {
-        background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
-        background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
-        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; }
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+        background: none; }
   .fourth__main-scheme {
     display: -webkit-box;
     display: -webkit-flex;
