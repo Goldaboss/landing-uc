@@ -538,6 +538,14 @@ a:hover {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
+@media (max-width: 992px) {
+  .first__menu {
+    display: none; }
+  .first__main-img {
+    display: none; }
+  .first__footer {
+    display: none; } }
+
 .second__bg {
   position: relative;
   overflow: hidden; }
@@ -634,6 +642,18 @@ a:hover {
   -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
           box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
   margin: 0 auto; }
+
+@media (max-width: 992px) {
+  .second__bg:before {
+    display: none; }
+  .second__header-img {
+    display: none; }
+  .feature__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 .third__bg {
   background: url("../img/Could.png") no-repeat 67% 30%; }

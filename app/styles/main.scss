@@ -3,9 +3,9 @@ html {
 }
 
 body {
-   font-family: ProximaNova, sans-serif;
-   font-weight: normal;
- }
+  font-family: ProximaNova, sans-serif;
+  font-weight: normal;
+}
 
 *, :after, :before {
   box-sizing: border-box;
@@ -15,6 +15,7 @@ body {
   max-width: 1440px;
   padding: 0 80px;
 }
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -26,9 +27,4 @@ button:active, button:focus {
 
 a:hover {
   text-decoration: none;
-}
-
-//медиа запросы
-@media (max-width: 992px) {
-
 }

@@ -115,3 +115,20 @@
 
 
 }
+
+
+@media (max-width: 992px) {
+  .second {
+    &__bg:before {
+      display: none;
+    }
+    &__header {
+      &-img {
+        display: none;
+      }
+    }
+  }
+  .feature__item {
+    flex-direction: column;
+  }
+}

@@ -132,3 +132,20 @@
   from { transform: rotate(0deg) }
   to { transform: rotate(360deg) }
 }
+
+
+
+//медиа запросы
+@media (max-width: 992px) {
+  .first {
+    &__menu {
+      display: none;
+    }
+    &__main-img {
+      display: none;
+    }
+    &__footer {
+      display: none;
+    }
+  }
+}
