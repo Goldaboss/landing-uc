@@ -2,10 +2,10 @@
 
   .container {
     position: relative;
-    overflow: hidden;
   }
 
   &__bg {
+    overflow: hidden;
 
     &-round {
       position: absolute;
@@ -104,7 +104,7 @@
           font-size: 1.5rem;
           list-style-type: none;
           display: flex;
-          padding: 0 2rem 0.8125rem;
+          padding: 0 1rem 0.8125rem;
 
 
           &:before {

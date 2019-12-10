@@ -1,5 +1,6 @@
 .second {
 
+
   &__bg {
     position: relative;
     overflow: hidden;
@@ -11,10 +12,12 @@
       border-radius: 50%;
       width: 74.75rem;
       height: 74.75rem;
-      top: -213px;
-      right: 55px;
+      top: -12%;
+      left: 50%;
       background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+      z-index: -1;
     }
+
   }
 
   &__header {
@@ -36,9 +39,8 @@
 
     &-img {
       width: 65.3125rem;
-
       flex-shrink: 0;
-      z-index: 2;
+      position: relative;
     }
   }
 
