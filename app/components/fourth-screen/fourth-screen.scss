@@ -14,7 +14,7 @@
       font-weight: bold;
       text-align: center;
       margin: 0;
-      padding-bottom: 1.5625rem;
+      padding-bottom: 2rem;
     }
 
     &-text {
@@ -113,8 +113,8 @@
 
           &-full{
             width: 100%;
-            margin-left: 5.625rem;
-            padding: 3.125rem 9.0625rem 5px 0px;
+            margin-left: 7.625rem;
+            padding: 3.125rem 12.0625rem 5px 0px;;
           }
 
           &-first {
@@ -131,8 +131,8 @@
           &-last {
             position: absolute;
             font-size: 6rem;
-            bottom: -40px;
-            right: -145px;
+            bottom: -30px;
+            right: -130px;
             background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
             opacity: 0.1;
             padding: 50px;
@@ -169,7 +169,7 @@
           &-full {
             width: 100%;
             margin-right: 90px;
-            padding: 1.5625rem 7.1875rem 8.125rem 10.625rem;
+            padding: 1.5625rem 7.1875rem 7.15rem 10.625rem;
 
             &:before{
               content: '';

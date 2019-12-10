@@ -1,7 +1,7 @@
 .third {
 
   &__bg {
-    background:  url("../img/Could.png") no-repeat 55.625rem 12.5rem;
+    background:  url("../img/Could.png") no-repeat 75.625rem 13rem;
   }
 
   &__header {
@@ -27,14 +27,14 @@
     }
 
     &-capabilities {
-      padding: 3.125rem 0 1.875rem 0.9375rem;
+      padding: 3.125rem 0 1.875rem 1.5rem;
       display: flex;
       flex-direction: column;
 
       &-title {
         font-size: 2rem;
         font-weight: bold;
-        padding: 0 2.8125rem 1.25rem;
+        padding: 0.33rem 2rem 3rem;
         margin: 0;
       }
 

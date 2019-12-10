@@ -335,7 +335,7 @@ th {
   content: ""; }
 
 html {
-  font-size: 16px; }
+  font-size: 12px; }
 
 body {
   font-family: ProximaNova, sans-serif;
@@ -346,8 +346,8 @@ body {
           box-sizing: border-box; }
 
 .container {
-  max-width: 1920px;
-  padding: 0 106px; }
+  max-width: 1440px;
+  padding: 0 80px; }
 
 img {
   max-width: 100%;
@@ -439,23 +439,19 @@ a:hover {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 9.812rem 8.125rem 5.8125rem;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  padding: 0 9.812rem 8.125rem 6.8125rem; }
   .first__main-title {
     font-weight: bold;
     font-size: 4rem;
     color: #fff;
-    padding: 3rem 0 12.15rem;
+    padding: 3rem 0 12.3rem;
     margin: 0; }
     .first__main-title-little {
       font-weight: bold;
       font-size: 3.5rem;
       color: #9AD7FF;
       margin: 0;
-      padding: 0 0 20px 0; }
+      padding: 0 0 1.16rem 0; }
   .first__main-text {
     font-size: 1.5rem;
     color: #fff;
@@ -522,8 +518,8 @@ a:hover {
     border-radius: 50%;
     width: 74.75rem;
     height: 74.75rem;
-    top: -278px;
-    right: -239px;
+    top: -213px;
+    right: 55px;
     background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
     background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
     background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%); }
@@ -539,12 +535,12 @@ a:hover {
           justify-content: space-between;
   padding: 7.5rem 0 9.375rem 4.375rem; }
   .second__header-info {
-    padding-top: 5.625rem; }
+    padding-top: 5.625rem;
+    padding-left: 2rem; }
   .second__header-title {
     font-weight: bold;
     font-size: 3.5rem;
-    line-height: 68px;
-    padding: 3.125rem 0 7.8125rem 0.9375rem;
+    padding: 3rem 0 7.8125rem 0;
     margin: 0; }
   .second__header-img {
     width: 65.3125rem;
@@ -609,7 +605,7 @@ a:hover {
   margin: 0 auto; }
 
 .third__bg {
-  background: url("../img/Could.png") no-repeat 55.625rem 12.5rem; }
+  background: url("../img/Could.png") no-repeat 75.625rem 13rem; }
 
 .third__header {
   padding-top: 6.25rem; }
@@ -633,7 +629,7 @@ a:hover {
         -ms-flex-negative: 0;
             flex-shrink: 0; }
   .third__main-capabilities {
-    padding: 3.125rem 0 1.875rem 0.9375rem;
+    padding: 3.125rem 0 1.875rem 1.5rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -646,7 +642,7 @@ a:hover {
     .third__main-capabilities-title {
       font-size: 2rem;
       font-weight: bold;
-      padding: 0 2.8125rem 1.25rem;
+      padding: 0.33rem 2rem 3rem;
       margin: 0; }
     .third__main-capabilities-list {
       padding: 0 0 0 5px;
@@ -708,7 +704,7 @@ a:hover {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    padding-bottom: 1.5625rem; }
+    padding-bottom: 2rem; }
   .fourth__header-text {
     font-size: 1.1625rem;
     text-align: center;
@@ -801,8 +797,8 @@ a:hover {
       position: relative; }
       .fourth__main-scheme-center-icon-full {
         width: 100%;
-        margin-left: 5.625rem;
-        padding: 3.125rem 9.0625rem 5px 0px; }
+        margin-left: 7.625rem;
+        padding: 3.125rem 12.0625rem 5px 0px; }
       .fourth__main-scheme-center-icon-first {
         position: absolute;
         font-size: 6rem;
@@ -817,8 +813,8 @@ a:hover {
       .fourth__main-scheme-center-icon-last {
         position: absolute;
         font-size: 6rem;
-        bottom: -40px;
-        right: -145px;
+        bottom: -30px;
+        right: -130px;
         background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
         background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
         background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
@@ -847,7 +843,7 @@ a:hover {
       .fourth__main-scheme-center-text-full {
         width: 100%;
         margin-right: 90px;
-        padding: 1.5625rem 7.1875rem 8.125rem 10.625rem; }
+        padding: 1.5625rem 7.1875rem 7.15rem 10.625rem; }
         .fourth__main-scheme-center-text-full:before {
           content: '';
           position: absolute;
@@ -942,7 +938,7 @@ a:hover {
 .fifth-title {
   font-size: 3.5rem;
   font-weight: bold;
-  padding: 2.5rem 0 4.25rem;
+  padding: 7rem 0 4.25rem;
   text-align: center;
   margin: 0; }
 
@@ -956,7 +952,7 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
-  padding: 0 5.625rem 7.1875rem;
+  padding: 0 7.625rem 7.1875rem;
   margin: 0;
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
@@ -1006,7 +1002,7 @@ a:hover {
         font-size: 2rem;
         color: #E0E0E0; }
     .fifth-list-item-content {
-      padding: 3.125rem 0; }
+      padding: 2.5rem 0 1rem; }
       .fifth-list-item-content-text {
         font-size: 1.5rem;
         list-style-type: none;
@@ -1014,7 +1010,7 @@ a:hover {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        padding: 0 0.625rem 0.8125rem; }
+        padding: 0 2rem 0.8125rem; }
         .fifth-list-item-content-text:before {
           content: '\2714';
           color: #6FCF97;
@@ -1028,7 +1024,7 @@ a:hover {
             font-weight: bold;
             margin-right: 0.625rem; }
     .fifth-list-item-wrap {
-      width: 70%;
+      width: 73%;
       margin: 0 auto;
       border-radius: 50px;
       padding: 2px; }
@@ -1123,7 +1119,7 @@ a:hover {
             align-items: center;
     color: #ffffff; }
     .sixth__main-img-server {
-      padding: 12.5rem;
+      padding: 13rem;
       background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
       background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
       background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
@@ -1145,7 +1141,8 @@ a:hover {
     .sixth__main-content-text {
       font-size: 1.1625rem;
       line-height: 1.4375rem;
-      padding: 0 5rem 4.0625rem 0; }
+      padding: 0 5rem 6.5rem 0;
+      margin: 0; }
     .sixth__main-content-btn {
       border: none;
       font-size: 1.5rem;
@@ -1160,7 +1157,7 @@ a:hover {
 
 .sixth__footer-bg {
   background-image: url("../img/Footer-bg.png");
-  padding: 19.0625rem 0 4.6875rem; }
+  padding: 18.0625rem 0 4.6875rem; }
 
 .sixth__footer-content {
   display: -webkit-box;

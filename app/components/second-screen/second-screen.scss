@@ -11,8 +11,8 @@
       border-radius: 50%;
       width: 74.75rem;
       height: 74.75rem;
-      top: -278px;
-      right: -239px;
+      top: -213px;
+      right: 55px;
       background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
     }
   }
@@ -24,13 +24,13 @@
 
     &-info {
       padding-top: 5.625rem;
+      padding-left: 2rem;
     }
 
     &-title {
       font-weight: bold;
       font-size: 3.5rem;
-      line-height: 68px;
-      padding: 3.125rem 0 7.8125rem 0.9375rem;
+      padding: 3rem 0 7.8125rem 0;
       margin: 0;
     }
 

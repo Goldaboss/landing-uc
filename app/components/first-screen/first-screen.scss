@@ -54,14 +54,13 @@
   &__main {
     display: flex;
     justify-content: space-between;
-    padding: 0 9.812rem 8.125rem 5.8125rem;
-    align-items: center;
+    padding: 0 9.812rem 8.125rem 6.8125rem;
 
     &-title {
       font-weight: bold;
       font-size: 4rem;
       color: $whiteColor;
-      padding: 3rem 0 12.15rem;
+      padding: 3rem 0 12.3rem;
       margin: 0;
 
       &-little {
@@ -69,7 +68,7 @@
         font-size: 3.5rem;
         color: #9AD7FF;
         margin: 0;
-        padding: 0 0 20px 0;
+        padding: 0 0 1.16rem 0;
       }
     }
 

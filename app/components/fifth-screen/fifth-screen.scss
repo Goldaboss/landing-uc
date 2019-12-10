@@ -34,7 +34,7 @@
   &-title {
     font-size: 3.5rem;
     font-weight: bold;
-    padding: 2.5rem 0 4.25rem;
+    padding: 7rem 0 4.25rem;
     text-align: center;
     margin: 0;
   }
@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0 5.625rem 7.1875rem;
+    padding: 0 7.625rem 7.1875rem;
     margin: 0;
     flex-wrap: nowrap;
 
@@ -98,13 +98,13 @@
       }
 
       &-content {
-        padding: 3.125rem 0;
+        padding: 2.5rem 0 1rem;
 
         &-text {
           font-size: 1.5rem;
           list-style-type: none;
           display: flex;
-          padding: 0 0.625rem 0.8125rem;
+          padding: 0 2rem 0.8125rem;
 
 
           &:before {
@@ -128,7 +128,7 @@
       }
 
       &-wrap {
-        width: 70%;
+        width: 73%;
         margin: 0 auto;
         border-radius: 50px;
         padding: 2px;

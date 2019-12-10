@@ -14,7 +14,7 @@
       color: #ffffff;
 
       &-server {
-        padding: 12.5rem;
+        padding: 13rem;
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         border-radius: 50%;
         opacity: 0.5;
@@ -42,7 +42,8 @@
       &-text {
         font-size: 1.1625rem;
         line-height: 1.4375rem;
-        padding: 0 5rem 4.0625rem 0;
+        padding: 0 5rem 6.5rem 0;
+        margin: 0;
       }
 
       &-btn {
@@ -61,7 +62,7 @@
 
     &-bg {
       background-image: url("../img/Footer-bg.png");
-      padding: 19.0625rem 0 4.6875rem;
+      padding: 18.0625rem 0 4.6875rem;
     }
 
     &-content {
