@@ -749,6 +749,10 @@ a:hover {
         font-size: 1.5rem;
         line-height: 1.8125rem; }
 
+@media (max-width: 992px) {
+  .third {
+    display: none; } }
+
 .fourth__bg {
   background: url("../img/Section-4bg.jpg") no-repeat;
   background-size: contain; }
@@ -966,6 +970,10 @@ a:hover {
       text-align: end;
       position: relative; }
 
+@media (max-width: 992px) {
+  .fourth {
+    display: none; } }
+
 .fifth .container {
   position: relative; }
 
@@ -1152,6 +1160,10 @@ a:hover {
   height: 1.3px;
   margin: 0 5.625rem 0; }
 
+@media (max-width: 992px) {
+  .fifth {
+    display: none; } }
+
 .sixth__main {
   padding: 10.3125rem 7.25rem 5px;
   display: -webkit-box;
@@ -1254,3 +1266,7 @@ a:hover {
       font-size: 1.5rem;
       color: #9AD7FF;
       text-decoration: underline; }
+
+@media (max-width: 992px) {
+  .sixth {
+    display: none; } }
