@@ -16,13 +16,11 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   &__header {
     display: flex;
-    padding-top: 3.58rem;
-    padding-bottom: 9.75rem;
     justify-content: space-between;
   }
 
@@ -65,8 +63,7 @@
 
   &__main {
     display: flex;
-    justify-content: space-between;
-    padding: 0 9.812rem 8.125rem 6.8125rem;
+    justify-content: space-around;
 
     &-title {
       font-weight: bold;
@@ -108,7 +105,6 @@
 
   &__footer {
     text-align: center;
-    padding-bottom: 4.375rem;
 
     &-btn {
       border: none;

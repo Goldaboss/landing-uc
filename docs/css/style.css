@@ -400,17 +400,14 @@ a:hover {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
   .first__header {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 3.58rem;
-    padding-bottom: 9.75rem;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
@@ -467,11 +464,9 @@ a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0 9.812rem 8.125rem 6.8125rem; }
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
     .first__main-title {
       font-weight: bold;
       font-size: 4rem;
@@ -505,8 +500,7 @@ a:hover {
         -webkit-animation: clockArrow 60s linear infinite;
                 animation: clockArrow 60s linear infinite; }
   .first__footer {
-    text-align: center;
-    padding-bottom: 4.375rem; }
+    text-align: center; }
     .first__footer-btn {
       border: none;
       padding: 0;
