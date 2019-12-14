@@ -1384,10 +1384,6 @@ a:hover {
   height: 1.3px;
   margin: 0 5.625rem 0; }
 
-@media (max-width: 992px) {
-  .fifth {
-    display: none; } }
-
 .sixth__main {
   padding: 10.3125rem 7.25rem 5px;
   display: -webkit-box;
