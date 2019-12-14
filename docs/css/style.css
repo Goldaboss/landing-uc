@@ -842,6 +842,32 @@ a:hover {
         font-size: 1.5rem;
         line-height: 1.8125rem; }
 
+@media (max-width: 992px) {
+  .third__bg {
+    background: none; }
+  .third__header {
+    padding-top: 2.66rem; }
+    .third__header-title {
+      font-size: 2rem;
+      padding: 0 0 1.75rem 0;
+      text-align: inherit; }
+  .third__main-video {
+    display: none; }
+  .third__main {
+    padding-bottom: 3rem; }
+    .third__main-capabilities {
+      padding: 0; }
+      .third__main-capabilities-title {
+        font-size: 1.16rem;
+        padding: 0 0 2rem; }
+      .third__main-capabilities-list {
+        padding: 0;
+        margin: 0; }
+      .third__main-capabilities-item {
+        padding: 0 0 2rem; }
+        .third__main-capabilities-item-content {
+          font-size: 0.915rem; } }
+
 .fourth__bg {
   background: url("../img/Section-4bg.jpg") no-repeat;
   background-size: contain; }
