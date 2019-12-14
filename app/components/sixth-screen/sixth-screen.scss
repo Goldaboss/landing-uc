@@ -31,6 +31,10 @@
         padding: 0 0 4.6875rem 0;
         margin: 0;
 
+        &-mobile {
+          display: none;
+        }
+
         &-mini {
           font-size: 1.5rem;
           font-weight: bold;
@@ -106,6 +110,92 @@
 
 @media (max-width: 992px) {
   .sixth {
-    display: none;
+    &__main {
+      padding: 32px 0;
+
+      &-img {
+        font-size: 3.58rem;
+        width: 40%;
+
+        &-server {
+          padding: 2.5rem;
+        }
+      }
+
+      &-content {
+        padding: 0;
+        align-self: center;
+        width: 55%;
+
+        &-title {
+          font-size: 2rem;
+          padding: 0;
+
+          &-mini {
+            font-size: 1.16rem;
+          }
+
+          &-desctop{
+            display: none;
+          }
+
+          &-mobile {
+            display: block;
+            padding-bottom: 46px;
+          }
+        }
+
+        &-text {
+          font-size: 0.916rem;
+          padding: 0 0 2rem;
+        }
+
+        &-btn {
+          font-size: 1rem;
+          display: block;
+          margin: 0 auto;
+          padding: 0.75rem 2.7rem;
+        }
+      }
+    }
+
+    &__footer {
+      &-bg {
+        padding: 32px 0 30px;
+        background: #FAFAFA;
+      }
+
+      &-content {
+        flex-direction: column;
+
+        &-contacts {
+           justify-content: space-between;
+          padding-bottom: 1.33rem;
+
+          &-phone{
+            font-size: 1.16rem;
+            padding: 0;
+            margin: 0;
+          }
+
+          &-mail{
+            font-size: 1.16rem;
+            padding: 0;
+          }
+        }
+        &-info {
+          flex-direction: column;
+
+          &-firm {
+            font-size: 1.16rem;
+            margin: 0;
+          }
+
+          &-requisites {
+            font-size: 1.16rem;
+          }
+        }
+      }
+    }
   }
 }
