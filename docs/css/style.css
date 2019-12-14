@@ -842,10 +842,6 @@ a:hover {
         font-size: 1.5rem;
         line-height: 1.8125rem; }
 
-@media (max-width: 992px) {
-  .third {
-    display: none; } }
-
 .fourth__bg {
   background: url("../img/Section-4bg.jpg") no-repeat;
   background-size: contain; }
