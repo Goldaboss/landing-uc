@@ -1452,7 +1452,8 @@ a:hover {
       .fifth-list-item-content {
         padding: 1.33rem 0 7px; }
         .fifth-list-item-content-text {
-          font-size: 0.916rem; }
+          font-size: 0.916rem;
+          padding: 0 2rem 0.8125rem; }
       .fifth-list-item-btn {
         font-size: 1rem; }
       .fifth-list-item-wrap {
