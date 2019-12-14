@@ -57,6 +57,7 @@
         }
       }
       &-button {
+        align-self: center;
         display: flex;
       }
 
@@ -68,7 +69,6 @@
         font-size: 2rem;
         color: #BDBDBD;
         padding: 0 0 0 2.5rem;
-        line-height: 0;
 
         &-active {
           -webkit-background-clip: unset;
@@ -116,7 +116,7 @@
           &-full{
             width: 100%;
             margin-left: 7.625rem;
-            padding: 3.125rem 12.0625rem 5px 0px;;
+            padding: 3.125rem 12.0625rem 5px 0;
           }
 
           &-first {
@@ -262,6 +262,140 @@
 
 @media (max-width: 992px) {
   .fourth {
-    display: none;
+    &__bg {
+      padding-bottom: 6rem;
+    }
+
+    &__header {
+        padding: 6rem 0 2rem;
+      &-title {
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 1rem;
+      }
+      &-text {
+        font-size: 0.916rem;
+        text-align: left;
+      }
+    }
+
+    &__main {
+      padding: 0;
+
+      &-header {
+        flex-direction: column;
+        padding: 0;
+        border: none;
+
+        &-worked {
+          &-title {
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+          }
+          &-symbol {
+            display: none;
+          }
+        }
+        &-button {
+          align-self: flex-start;
+          padding-bottom: 2rem;
+        }
+        &-btn {
+          font-size: 1.16rem;
+        }
+      }
+
+      &-scheme {
+        flex-direction: column;
+        border-left: 1px solid black;
+        padding: 0 0 0 1.6rem;
+
+        &-left {
+          width: 100%;
+          font-size: 1rem;
+          margin: -5px 0 0;
+          padding: 0 0 3rem;
+
+          &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            left: -29px;
+            top: 4px;
+            border: 1px solid black;
+            background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+          }
+        }
+
+        &-center {
+          display: flex;
+          flex-direction: column;
+          border: none;
+          padding: 0;
+
+          &-text {
+
+            &-full {
+              border: none;
+            }
+
+            width: 100%;
+            padding: 0 0 3rem;
+            margin: 0;
+            border: none;
+            text-align: left;
+            font-size: 0.9rem;
+
+
+            &:before {
+              left: -29px;
+              top: -2px;
+            }
+
+            &-first {
+              &:after {
+                display: none;
+              }
+            }
+
+            &-last {
+              &:after {
+                display: none;
+              }
+            }
+
+          }
+
+          &-icon {
+            display: none;
+          }
+        }
+
+        &-right {
+          width: 100%;
+          font-size: 1rem;
+          font-weight: bold;
+          margin: 0;
+          text-align: start;
+          padding: 0;
+
+          &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            top: -2px;
+            left: -29px;
+            border: 1px solid black;
+            background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+          }
+        }
+      }
+    }
   }
 }
