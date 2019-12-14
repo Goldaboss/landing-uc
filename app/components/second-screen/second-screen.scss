@@ -119,6 +119,7 @@
 
 @media (max-width: 992px) {
   .second {
+    display: none;
     &__bg:before {
       display: none;
     }
