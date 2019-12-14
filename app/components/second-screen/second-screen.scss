@@ -73,7 +73,7 @@
         font-size: 5rem;
         color: #9AD7FF;
         display: block;
-        width: 7.8125rem;
+        padding-right: 2rem;
       }
 
       &-content {
@@ -177,24 +177,13 @@
     }
 
     &__main {
-      padding: 0;
+      padding: 0 0 4rem;
+    }
+
+    .btn-free {
+      font-size: 1rem;
+      margin-top: 1rem;
     }
   }
 }
 
-@media (max-width: 768px) {
-  .second {
-    &__header {
-      &-info{
-        margin: 0 auto;
-      }
-    }
-
-    .feature {
-
-      //&__list {
-      //  padding: 0  2.6875rem;
-      //}
-    }
-  }
-}
