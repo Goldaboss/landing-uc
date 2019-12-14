@@ -156,6 +156,10 @@
 
 
 @media (max-width: 992px) {
+  .container {
+    padding: 0 24px;
+  }
+
   .first {
 
     &__container{

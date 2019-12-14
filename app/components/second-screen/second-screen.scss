@@ -26,19 +26,22 @@
     padding: 7.5rem 0 9.375rem 4.375rem;
 
     &-info {
-      padding-top: 5.625rem;
-      padding-left: 2rem;
+      //padding-top: 5.625rem;
+      //padding-left: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
     }
 
     &-title {
       font-weight: bold;
       font-size: 3.5rem;
-      padding: 3rem 0 7.8125rem 0;
+      //padding: 3rem 0 7.8125rem 0;
       margin: 0;
     }
 
     &-img {
-      width: 65.3125rem;
+      width: 60%;
       flex-shrink: 0;
       position: relative;
     }
@@ -53,11 +56,12 @@
       margin: 0 1.3125rem 0;
     }
   }
+
   .feature {
 
     &__list {
       margin: 0;
-      padding: 0 0 2.6875rem 0;
+      padding: 0;
     }
 
     &__item {
@@ -72,7 +76,7 @@
         width: 7.8125rem;
       }
 
-      &-content{
+      &-content {
 
       }
 
@@ -94,7 +98,6 @@
         line-height: 1.4375rem;
         color: #2E5473;
         margin: 0;
-        max-width: 32.5rem;
         padding-bottom: 2.5rem;
       }
     }
@@ -118,18 +121,80 @@
 
 
 @media (max-width: 992px) {
+
+
   .second {
-    display: none;
+
     &__bg:before {
       display: none;
     }
+
     &__header {
+      padding: 2.66rem 0;
+
+      &-info {
+        width: 100%;
+
+      }
+
+      &-title {
+        font-size: 2rem;
+        padding-bottom: 3.166rem;
+        text-align: center;
+      }
+
       &-img {
         display: none;
       }
     }
+
+
+    .feature {
+
+      &__list {
+
+      }
+
+      &__item {
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+
+        &-icon {
+          font-size: 2.6rem;
+        }
+
+        &-title {
+          font-size: 1.166rem;
+          padding-bottom: 1rem;
+        }
+
+        &-text {
+          font-size: 0.916rem;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+
+    &__main {
+      padding: 0;
+    }
   }
-  .feature__item {
-    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .second {
+    &__header {
+      &-info{
+        margin: 0 auto;
+      }
+    }
+
+    .feature {
+
+      //&__list {
+      //  padding: 0  2.6875rem;
+      //}
+    }
   }
 }
