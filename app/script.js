@@ -14,5 +14,18 @@ $(document).ready(function () {
         $(".fourth__main-scheme").addClass("fourth__main-scheme-none");
         block.removeClass("fourth__main-scheme-none");
     });
+
+    $("#phone").inputmask({"mask": "+7 (999) 999-99-99", placeholder: "+7 (___) ___-__-__"});
+
+    $(".js-btn-free").on("click", function () {
+        $(".popup").removeClass("popup-hidden");
+    });
+
+    $(".js-close-modal").on("click", function () {
+        $(".popup").addClass("popup-hidden");
+    });
+
 });
+
+
 

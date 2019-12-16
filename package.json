@@ -26,5 +26,8 @@
     "gulp-imagemin": "^6.1.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "inputmask": "^5.0.0"
   }
 }

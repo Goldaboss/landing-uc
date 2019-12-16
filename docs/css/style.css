@@ -1631,3 +1631,95 @@ a:hover {
         margin: 0; }
       .sixth__footer-content-info-requisites {
         font-size: 1.16rem; } }
+
+.popup {
+  width: 482px;
+  border-radius: 12px;
+  position: fixed;
+  background: #ffffff;
+  top: 25%;
+  left: 50%;
+  margin-left: -241px;
+  z-index: 10; }
+  .popup__header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 73px 0 13px;
+    margin: 0; }
+  .popup__header-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2rem; }
+  .popup__main-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .popup__main-text {
+    font-size: 1.33rem;
+    padding: 10px 0;
+    margin: 0 32px 21px;
+    text-align: center;
+    border-radius: 10px;
+    background: #F2F2F2; }
+  .popup__main-tel {
+    font-size: 1.33rem;
+    padding: 10px 0;
+    margin: 0 32px 21px;
+    text-align: center;
+    border-radius: 10px;
+    background: #F2F2F2; }
+  .popup .btn-free {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
+    background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
+    background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+    border-radius: 69px;
+    border: none;
+    padding: 1.3125rem 2.5rem;
+    -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
+            box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
+    margin: 40px auto; }
+  .popup .close-modal {
+    font-size: 2rem;
+    color: #979797;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    border: none;
+    background: inherit; }
+
+.popup-hidden {
+  display: none; }
+
+@media (max-width: 992px) {
+  .popup {
+    font-size: 12px; }
+    .popup__header-title {
+      font-size: 1.33rem; }
+    .popup__header-text {
+      font-size: 1rem; }
+    .popup__main-text {
+      font-size: 1rem;
+      padding: 6px 0; }
+    .popup__main-tel {
+      font-size: 1rem;
+      padding: 6px 0; }
+    .popup .btn-free {
+      font-size: 0.75rem; } }
+
+@media (max-width: 576px) {
+  .popup {
+    width: 320px;
+    left: 50%;
+    margin-left: -160px; } }
