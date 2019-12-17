@@ -25,6 +25,12 @@
     &-form {
       display: flex;
       flex-direction: column;
+
+      &-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
 
     &-text {
@@ -46,6 +52,8 @@
       background: #F2F2F2;
       outline: none;
     }
+
+
   }
 
   .btn-free {
@@ -58,7 +66,7 @@
     border: none;
     padding: 1.3125rem 2.5rem;
     box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
-    margin: 40px auto;
+    margin: 25px auto;
   }
 
   .close-modal {
