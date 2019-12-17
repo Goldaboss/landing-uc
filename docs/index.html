@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Titel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -459,7 +460,7 @@
 				
 				</li>
 			</ul>
-			<button type="button" class="btn-free js-btn-free">Попробовать бесплатно</button>
+			<button type="button" class="btn-free btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Попробовать бесплатно</button>
 			
 			<div class="fifth__footer-line"></div>
 		</div>
@@ -509,26 +510,43 @@
 		</div>
 	</div>
 </section>
-<section class="seventh">
-	<div class="popup popup-hidden">
-		<div class="popup__header">
-			<h2 class="popup__header-title">Спасибо за внимание<br>к нашему продукту</h2>
-			<p class="popup__header-text">Оставьте свой номер телефона <br>мы обязательно вам перезвоним.</p>
-		</div>
-		<div class="popup__main">
-			<form action="" method="post" class="popup__main-form">
-				<input class="popup__main-text" placeholder="Как вас зовут?" type="text" required autofocus>
-				<input class="popup__main-tel" type="tel" id="phone" required placeholder="+7 (___) ___-__-__">
-				<button class="btn-free js-btn-free">Попробовать бесплатно</button>
-				<button class="close-modal js-close-modal">&#10006;</button>
-			</form>
-		</div>
+
+	<div class="popup modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+		 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				
+				<div class="popup__header modal-header">
+					
+					<h2 class="popup__header-title modal-title" id="exampleModalLongTitle">Спасибо за внимание<br>к нашему продукту</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span caria-hidden="true" class="close-modal">&#10006;</span>
+					</button>
+				</div>
+				<div class="popup__main modal-body">
+					<p class="popup__header-text">Оставьте свой номер телефона <br>мы обязательно вам перезвоним.</p>
+					<form action="" method="post" class="popup__main-form">
+						<input class="popup__main-text" placeholder="Как вас зовут?" type="text" maxlength="15" required autofocus>
+						<input class="popup__main-tel" type="tel" id="phone" required placeholder="+7 (___) ___-__-__" minlength="18">
+						<input type="checkbox" name="agree" required checked>
+						<div>Даю согласие на обработку моих персональных данных</div>
+						<button class="btn-free js-btn-free">Попробовать бесплатно</button>
+					</form>
+				</div>
+			</div>
+			
 		</div>
 	</div>
-</section>
 
-<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 <script src="js/jquery.inputmask.min.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
 </body>

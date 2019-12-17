@@ -1,22 +1,13 @@
 
 .popup {
-  width: 482px;
-  border-radius: 12px;
-  position: fixed;
-  background: #ffffff;
-  top: 25%;
-  left: 50%;
-  margin-left: -241px;
-  z-index: 10;
-
   &__header {
 
     &-title {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: bold;
+      margin: 32px auto;
       text-align: center;
-      padding: 73px 0 13px;
-      margin: 0;
+      width: 100%;
     }
 
     &-text {
@@ -28,6 +19,7 @@
   }
 
   &__main {
+    padding: 0 32px;
 
     &-form {
       display: flex;
@@ -37,19 +29,21 @@
     &-text {
       font-size: 1.33rem;
       padding: 10px 0;
-      margin: 0 32px 21px;
+      margin: 0 0 21px;
       text-align: center;
       border-radius: 10px;
       background: #F2F2F2;
+      outline: none;
     }
 
     &-tel {
       font-size: 1.33rem;
       padding: 10px 0;
-      margin: 0 32px 21px;
+      margin: 0 0 21px;
       text-align: center;
       border-radius: 10px;
       background: #F2F2F2;
+      outline: none;
     }
   }
 
