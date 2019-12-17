@@ -1631,18 +1631,19 @@ a:hover {
       .sixth__footer-content-info-requisites {
         font-size: 1.16rem; } }
 
-.popup__header-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 32px auto;
-  text-align: center;
-  width: 100%; }
-
-.popup__header-text {
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 2rem; }
+.popup__header {
+  border: none; }
+  .popup__header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 32px auto 0;
+    text-align: center;
+    width: 100%; }
+  .popup__header-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2rem; }
 
 .popup__main {
   padding: 0 32px; }

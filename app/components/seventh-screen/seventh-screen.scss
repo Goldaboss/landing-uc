@@ -1,11 +1,12 @@
 
 .popup {
   &__header {
+    border: none;
 
     &-title {
       font-size: 2.5rem;
       font-weight: bold;
-      margin: 32px auto;
+      margin: 32px auto 0;
       text-align: center;
       width: 100%;
     }
