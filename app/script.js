@@ -24,6 +24,7 @@ $(document).ready(function () {
     $(".js-close-modal").on("click", function () {
         $(".popup").addClass("popup-hidden");
     });
+
     $(document).keydown(function(e) {
         if (e.keyCode === 27) {
             $(".popup").addClass("popup-hidden");
