@@ -184,7 +184,7 @@
     }
 
     &__header {
-      justify-content: space-around;
+      justify-content: space-between;
     }
 
     &__menu {
@@ -197,6 +197,12 @@
 
     &__menu {
       display: none;
+
+      &-active {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
     }
 
     &__main-img {

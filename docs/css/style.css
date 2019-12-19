@@ -567,13 +567,28 @@ a:hover {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .first__header {
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .first__menu-btn-nav {
     display: block; }
   .first__menu {
     display: none; }
+    .first__menu-active {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
   .first__main-img {
     display: none; }
   .first__footer {
