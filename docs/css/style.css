@@ -359,9 +359,6 @@ button:active, button:focus {
 a:hover {
   text-decoration: none; }
 
-* {
-  outline: 0 !important; }
-
 .first {
   min-height: 100vh;
   display: -webkit-box;
@@ -768,12 +765,25 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 7.25rem; }
+  padding-bottom: 7.25rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .third__main-video {
-    width: 65.3125rem;
+    min-width: 784px;
+    min-height: 518px;
     -webkit-flex-shrink: 0;
         -ms-flex-negative: 0;
-            flex-shrink: 0; }
+            flex-shrink: 0;
+    background: url("../img/Video.png") no-repeat;
+    background-size: contain; }
+    .third__main-video video {
+      display: block;
+      margin: 40px auto 0px;
+      border-radius: 25px 25px 5px 5px;
+      background: black;
+      outline: none; }
   .third__main-capabilities {
     padding: 3.125rem 0 1.875rem 1.5rem;
     display: -webkit-box;

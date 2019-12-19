@@ -1,7 +1,7 @@
 .third {
 
   &__bg {
-    background:  url("../img/Could.png") no-repeat 67% 30%;
+    background: url("../img/Could.png") no-repeat 67% 30%;
   }
 
   &__header {
@@ -20,10 +20,22 @@
   &__main {
     display: flex;
     padding-bottom: 7.25rem;
+    justify-content: space-between;
 
     &-video {
-      width: 65.3125rem;
+      min-width: 784px;
+      min-height: 518px;
       flex-shrink: 0;
+      background: url("../img/Video.png") no-repeat;
+      background-size: contain;
+
+      video {
+        display: block;
+        margin: 40px auto 0px;
+        border-radius: 25px 25px 5px 5px;
+        background: black;
+        outline: none;
+      }
     }
 
     &-capabilities {
@@ -38,13 +50,14 @@
         margin: 0;
       }
 
-      &-list  {
+      &-list {
         padding: 0 0 0 5px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         flex-grow: 1;
       }
+
       &-list:last-child {
         font-size: 1rem;
 
@@ -80,21 +93,21 @@
 }
 
 @media (max-width: 992px) {
- .third {
+  .third {
 
-   &__bg {
-     background: none;
-   }
+    &__bg {
+      background: none;
+    }
 
-   &__header {
-     padding-top: 2.66rem;
+    &__header {
+      padding-top: 2.66rem;
 
-     &-title {
-       font-size: 2rem;
-       padding: 0 0 1.75rem 0;
-       text-align: inherit;
-     }
-   }
+      &-title {
+        font-size: 2rem;
+        padding: 0 0 1.75rem 0;
+        text-align: inherit;
+      }
+    }
 
     &__main {
       &-video {
@@ -102,30 +115,30 @@
       }
     }
 
-   &__main {
-     padding-bottom: 3rem;
+    &__main {
+      padding-bottom: 3rem;
 
-     &-capabilities {
-       padding: 0;
+      &-capabilities {
+        padding: 0;
 
-       &-title{
-         font-size: 1.16rem;
-         padding: 0 0 2rem;
-       }
+        &-title {
+          font-size: 1.16rem;
+          padding: 0 0 2rem;
+        }
 
-       &-list {
-         padding: 0;
-         margin: 0;
-       }
+        &-list {
+          padding: 0;
+          margin: 0;
+        }
 
-       &-item {
-         padding: 0 0 2rem;
+        &-item {
+          padding: 0 0 2rem;
 
-         &-content {
-           font-size: 0.915rem;
-         }
-       }
-     }
-   }
- }
+          &-content {
+            font-size: 0.915rem;
+          }
+        }
+      }
+    }
+  }
 }
