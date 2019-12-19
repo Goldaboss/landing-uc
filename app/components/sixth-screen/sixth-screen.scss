@@ -58,6 +58,10 @@
         color: #ffffff;
         padding: 1.25rem 4.375rem;
         border-radius: 3.125rem;
+
+        &:hover {
+          background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        }
       }
     }
   }
@@ -155,7 +159,6 @@
           display: block;
           margin: 0 auto;
           padding: 0.75rem 2.7rem;
-
         }
       }
     }

@@ -186,8 +186,7 @@
           -webkit-text-fill-color: transparent;
         }
 
-        &:hover,
-        &:focus {
+        &:hover {
           -webkit-background-clip: border-box;
           -webkit-text-fill-color: #fff;
         }
@@ -207,6 +206,9 @@
     box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
     margin: 0 auto 8.125rem;
 
+    &:hover {
+      background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+    }
   }
 
   &__footer {

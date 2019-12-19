@@ -449,14 +449,22 @@ a:hover {
       color: #fff;
       text-decoration: none;
       white-space: nowrap; }
+      .first__menu-link:hover {
+        color: #fff;
+        text-decoration: underline; }
       .first__menu-link--free {
         display: block;
         color: #2E5473;
         background-color: #fff;
         font-weight: bold;
-        padding: 1.1875rem 2.5rem;
-        border: none;
-        border-radius: 69px; }
+        padding: 1.020rem 2.5rem;
+        border-radius: 69px;
+        border: 1px solid transparent; }
+        .first__menu-link--free:hover {
+          color: #fff;
+          background: transparent;
+          border: 1px solid #fff;
+          text-decoration: none; }
     .first__menu-btn-nav {
       display: none;
       list-style: none;
@@ -702,6 +710,10 @@ a:hover {
   -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
           box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
   margin: 0 auto; }
+  .second .btn-free:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+    background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
+    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
 
 @media (max-width: 992px) {
   .second__bg:before {
@@ -1347,7 +1359,7 @@ a:hover {
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
-      .fifth-list-item-btn:hover, .fifth-list-item-btn:focus {
+      .fifth-list-item-btn:hover {
         -webkit-background-clip: border-box;
         -webkit-text-fill-color: #fff; }
 
@@ -1365,6 +1377,10 @@ a:hover {
   -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
           box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
   margin: 0 auto 8.125rem; }
+  .fifth .btn-free:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+    background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
+    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
 
 .fifth__footer-line {
   background: #F2F2F2;
@@ -1512,6 +1528,10 @@ a:hover {
       color: #ffffff;
       padding: 1.25rem 4.375rem;
       border-radius: 3.125rem; }
+      .sixth__main-content-btn:hover {
+        background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
+        background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
+        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%); }
 
 .sixth__footer-bg {
   background-image: url("../img/Footer-bg.png");
