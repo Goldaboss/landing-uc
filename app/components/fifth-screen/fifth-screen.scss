@@ -137,10 +137,12 @@
         &-wrap2 {
           background: #ffffff;
           border-radius: 50px;
+
         }
 
         &-green {
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+
         }
 
         &-blue {
@@ -150,6 +152,8 @@
         &-orange {
           background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         }
+
+
       }
 
       &-btn {
@@ -162,6 +166,7 @@
         border: none;
         width: 100%;
         border-radius: 50px;
+        cursor: pointer;
 
         &-green {
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
@@ -179,6 +184,12 @@
           background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+        }
+
+        &:hover,
+        &:focus {
+          -webkit-background-clip: border-box;
+          -webkit-text-fill-color: #fff;
         }
       }
     }
@@ -195,6 +206,7 @@
     padding: 1.3125rem 2.5rem;
     box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
     margin: 0 auto 8.125rem;
+
   }
 
   &__footer {

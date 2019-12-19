@@ -175,10 +175,6 @@
       justify-content: space-around;
     }
 
-    &__logo {
-      width: 25%;
-    }
-
     &__menu {
       &-btn {
         &-nav {
@@ -221,15 +217,3 @@
   }
 }
 
-@media (max-width: 576px) {
-  .first {
-
-    &__header {
-      justify-content: space-between;
-    }
-
-    &__logo {
-      width: 35%;
-    }
-  }
-}

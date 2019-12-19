@@ -359,6 +359,9 @@ button:active, button:focus {
 a:hover {
   text-decoration: none; }
 
+* {
+  outline: 0 !important; }
+
 .first {
   min-height: 100vh;
   display: -webkit-box;
@@ -562,8 +565,6 @@ a:hover {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around; }
-  .first__logo {
-    width: 25%; }
   .first__menu-btn-nav {
     display: block; }
   .first__menu {
@@ -596,15 +597,6 @@ a:hover {
         margin-bottom: 2.5rem; }
     .first__main-text {
       font-size: 1.166rem; } }
-
-@media (max-width: 576px) {
-  .first__header {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .first__logo {
-    width: 35%; } }
 
 .second__bg {
   position: relative;
@@ -1335,7 +1327,8 @@ a:hover {
       background: #ffffff;
       border: none;
       width: 100%;
-      border-radius: 50px; }
+      border-radius: 50px;
+      cursor: pointer; }
       .fifth-list-item-btn-green {
         background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
         background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
@@ -1354,6 +1347,9 @@ a:hover {
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
+      .fifth-list-item-btn:hover, .fifth-list-item-btn:focus {
+        -webkit-background-clip: border-box;
+        -webkit-text-fill-color: #fff; }
 
 .fifth .btn-free {
   display: block;
