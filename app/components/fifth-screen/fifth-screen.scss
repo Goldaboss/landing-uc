@@ -133,6 +133,11 @@
         margin: 0 auto;
         border-radius: 50px;
         padding: 2px;
+        transition: .2s ease all;
+
+        * {
+          transition: .2s ease all;
+        }
 
         &-wrap2 {
           background: #ffffff;

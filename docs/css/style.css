@@ -1340,7 +1340,14 @@ a:hover {
       width: 20.5rem;
       margin: 0 auto;
       border-radius: 50px;
-      padding: 2px; }
+      padding: 2px;
+      -webkit-transition: .2s ease all;
+      -o-transition: .2s ease all;
+      transition: .2s ease all; }
+      .fifth-list-item-wrap * {
+        -webkit-transition: .2s ease all;
+        -o-transition: .2s ease all;
+        transition: .2s ease all; }
       .fifth-list-item-wrap-wrap2 {
         background: #ffffff;
         border-radius: 50px; }
