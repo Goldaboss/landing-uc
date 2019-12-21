@@ -725,7 +725,9 @@ a:hover {
   .second .btn-free:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
     background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
-    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
+    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+    -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
+            box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2); }
 
 @media (max-width: 992px) {
   .second__bg:before {
@@ -1342,18 +1344,29 @@ a:hover {
       .fifth-list-item-wrap-wrap2 {
         background: #ffffff;
         border-radius: 50px; }
+        .fifth-list-item-wrap-wrap2:hover {
+          background: none; }
       .fifth-list-item-wrap-green {
         background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
         background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
         background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%); }
+        .fifth-list-item-wrap-green:hover {
+          -webkit-box-shadow: 4px 4px 20px rgba(111, 207, 151, 0.5);
+                  box-shadow: 4px 4px 20px rgba(111, 207, 151, 0.5); }
       .fifth-list-item-wrap-blue {
         background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
         background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
         background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%); }
+        .fifth-list-item-wrap-blue:hover {
+          -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.5);
+                  box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.5); }
       .fifth-list-item-wrap-orange {
         background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
         background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
+        .fifth-list-item-wrap-orange:hover {
+          -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5);
+                  box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5); }
     .fifth-list-item-btn {
       display: block;
       font-size: 1.5rem;
@@ -1384,7 +1397,6 @@ a:hover {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
       .fifth-list-item-btn:hover {
-        -webkit-background-clip: border-box;
         -webkit-text-fill-color: #fff; }
 
 .fifth .btn-free {
@@ -1404,7 +1416,9 @@ a:hover {
   .fifth .btn-free:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
     background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
-    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
+    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+    -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
+            box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2); }
 
 .fifth__footer-line {
   background: #F2F2F2;
@@ -1555,7 +1569,9 @@ a:hover {
       .sixth__main-content-btn:hover {
         background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
         background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
-        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%); }
+        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
+                box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2); }
 
 .sixth__footer-bg {
   background-image: url("../img/Footer-bg.png");
