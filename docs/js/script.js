@@ -26,6 +26,5 @@ $(document).ready(function () {
     $(".first__header").css('flex-direction', 'column');
     $(".first__logo").css('align-self', 'flex-start');
     $(".first__menu-btn-nav").css('display', 'none');
-    $(".first__menu-link--free").css('display', 'none');
   });
 });
