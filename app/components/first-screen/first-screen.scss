@@ -204,7 +204,8 @@
       left: 0;
       width: 100%;
       padding: 25px;
-      background: linear-gradient(220.32deg, #3498DB 0%, #2C3E50 100%);
+      background: linear-gradient(220.32deg, rgba(52, 152, 219, 0.9) 0%, rgba(44, 62, 80, 0.9) 100%);
+      z-index: 999;
     }
 
     &__menu {
@@ -237,7 +238,27 @@
           background: transparent;
           border: none;
           padding: 36px 0;
+          position: relative;
+
+          &:after,
+          &:before {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: #fff;
+            position: absolute;
+            transform: rotate(45deg);
+            left: 24px;
+            top: 36px;
+          }
+
+          &:before {
+            transform: rotate(135deg);
+          }
         }
+
+
 
         &-bg {
           background: rgba(0, 0, 0, 0.8);
