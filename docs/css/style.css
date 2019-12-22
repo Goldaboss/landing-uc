@@ -1847,13 +1847,27 @@ a:hover {
   margin: 25px auto; }
 
 .popup .close-modal {
-  font-size: 2rem;
-  color: #979797;
   position: absolute;
-  top: 32px;
+  top: 45px;
   right: 32px;
   border: none;
   background: inherit; }
+  .popup .close-modal:after, .popup .close-modal:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #979797;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    left: 0;
+    top: 0; }
+  .popup .close-modal:before {
+    -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+            transform: rotate(135deg); }
 
 .popup-hidden {
   display: none; }

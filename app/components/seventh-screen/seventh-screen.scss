@@ -70,13 +70,28 @@
   }
 
   .close-modal {
-    font-size: 2rem;
-    color: #979797;
     position: absolute;
-    top: 32px;
+    top: 45px;
     right: 32px;
     border: none;
     background: inherit;
+
+    &:after,
+    &:before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #979797;
+      position: absolute;
+      transform: rotate(45deg);
+      left: 0;
+      top: 0;
+    }
+
+    &:before {
+      transform: rotate(135deg);
+    }
   }
 }
 
