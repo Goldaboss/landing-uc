@@ -280,24 +280,26 @@
 
       &-link {
         display: block;
-        padding: 10px 20px;
+        padding: 10px 0;
         white-space: normal;
         text-align: right;
 
         &--free {
           position: absolute;
           right: 24px;
-          bottom: 10%;
+          bottom: 80px;
           background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+
+          border-radius: 0;
         }
 
         &--tel {
           display: block;
           position: absolute;
           right: 24px;
-          bottom: 5%;
+          bottom: 34px;
           margin: 0;
         }
       }

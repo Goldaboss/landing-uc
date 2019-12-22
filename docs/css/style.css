@@ -661,23 +661,24 @@ a:hover {
       display: block; }
     .first__menu-link {
       display: block;
-      padding: 10px 20px;
+      padding: 10px 0;
       white-space: normal;
       text-align: right; }
       .first__menu-link--free {
         position: absolute;
         right: 24px;
-        bottom: 10%;
+        bottom: 80px;
         background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
         background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
         background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; }
+        -webkit-text-fill-color: transparent;
+        border-radius: 0; }
       .first__menu-link--tel {
         display: block;
         position: absolute;
         right: 24px;
-        bottom: 5%;
+        bottom: 34px;
         margin: 0; }
   .first__main-img {
     display: none; }
