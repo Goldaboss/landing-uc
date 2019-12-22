@@ -4,6 +4,7 @@ $(document).ready(function () {
         const id = $(this).attr("href"),
             top = $(id).offset().top;
         $("body,html").animate({scrollTop: top}, 500);
+        $(".first__menu-wrap").css('display', 'none');
     });
 
     $(".js-tab-button").on("click", function () {

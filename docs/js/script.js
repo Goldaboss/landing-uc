@@ -8,6 +8,7 @@ $(document).ready(function () {
     $("body,html").animate({
       scrollTop: top
     }, 500);
+    $(".first__menu-wrap").css('display', 'none');
   });
   $(".js-tab-button").on("click", function () {
     var tabClass = $(this).attr("data-tab-class"),
