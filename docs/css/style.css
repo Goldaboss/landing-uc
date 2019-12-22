@@ -1689,7 +1689,8 @@ a:hover {
     display: flex; }
     .sixth__footer-content-contacts-phone {
       font-size: 1.5rem;
-      padding: 0 2.1875rem 0 0; }
+      padding: 0 2.1875rem 0 0;
+      color: #000; }
     .sixth__footer-content-contacts-mail {
       font-size: 1.5rem;
       font-weight: normal;
