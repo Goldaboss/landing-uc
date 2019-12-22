@@ -630,6 +630,11 @@ a:hover {
         padding: 36px 0; }
       .first__menu-wrap-bg {
         background: rgba(0, 0, 0, 0.8); }
+      .first__menu-wrap-active {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
     .first__menu-btn-nav {
       display: block; }
     .first__menu-link {

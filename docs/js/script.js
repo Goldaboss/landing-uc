@@ -8,7 +8,7 @@ $(document).ready(function () {
     $("body,html").animate({
       scrollTop: top
     }, 500);
-    $(".first__menu-wrap").css('display', 'none');
+    $(".js-nav").removeClass('first__menu-wrap-active');
   });
   $(".js-tab-button").on("click", function () {
     var tabClass = $(this).attr("data-tab-class"),
@@ -23,11 +23,9 @@ $(document).ready(function () {
     placeholder: "+7 (___) ___-__-__"
   });
   $(".js-btn-nav").on("click", function () {
-    $(".first__menu-wrap").css('display', 'flex'); // $(".first__header").css('flex-direction', 'column');
-    // $(".first__logo").css('align-self','flex-start');
-    // $(".first__menu-btn-nav",).css('display', 'none');
+    $(".js-nav").addClass('first__menu-wrap-active');
   });
-  $(".first__menu-wrap-btn").on('click', function () {
-    $(".first__menu-wrap").css('display', 'none');
+  $(".js-menu-close").on('click', function () {
+    $(".js-nav").removeClass('first__menu-wrap-active');
   });
 });
