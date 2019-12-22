@@ -13,12 +13,13 @@
 			</div>
 			<div class="popup__main modal-body">
 				<p class="popup__header-text">Оставьте свой номер телефона <br>мы обязательно вам перезвоним.</p>
-				<form class="popup__main-form" novalidate>
-					<input class="popup__main-text" placeholder="Как вас зовут?" type="text" autofocus>
-					<input class="popup__main-tel" type="tel" id="phone" required placeholder="+7 (___) ___-__-__">
-					<label class="popup__main-form-label"><input type="checkbox" name="agree" required>&ensp;Даю
-						согласие на обработку моих персональных данных</label>
-					
+				<form class="popup__main-form">
+					<input class="popup__main-text" type="text" placeholder="Как вас зовут?" autofocus>
+					<input class="popup__main-tel" type="tel" id="phone" placeholder="+7 (___) ___-__-__">
+					<label class="popup__main-form-label">
+						<input type="checkbox" name="agree" checked>&ensp;Даю
+						согласие на обработку моих персональных данных
+					</label>
 					<button class="btn-free js-btn-free">Попробовать бесплатно</button>
 				</form>
 			</div>
