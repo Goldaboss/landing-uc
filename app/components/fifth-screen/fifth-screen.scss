@@ -185,12 +185,14 @@
 
         &-green {
           background: -moz-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+          background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
 
         &-blue {
           background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+           background: -o-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           color: transparent;
@@ -198,6 +200,7 @@
 
         &-orange {
           background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
