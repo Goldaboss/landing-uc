@@ -184,7 +184,7 @@
         cursor: pointer;
 
         &-green {
-          background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+          background: -moz-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -197,7 +197,7 @@
         }
 
         &-orange {
-          background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
