@@ -1494,10 +1494,9 @@ a:hover {
         -o-background-clip: text;
         -moz-background-clip: text;
         -ms-background-clip: text;
-        -webkit-background-clip: text;
-        background-clip: text;
         -webkit-text-fill-color: transparent;
-        color: transparent; }
+        color: transparent;
+        -webkit-background-clip: text; }
       .fifth-list-item-btn:hover {
         -webkit-text-fill-color: #fff; }
 
