@@ -200,16 +200,10 @@
 
         &-orange {
 
-          background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -webkit-background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -moz-background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -o-background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -o-background-clip: text;
-          -moz-background-clip: text;
-          -ms-background-clip: text;
+          background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+          background: -o-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-text-fill-color: transparent;
-          color: transparent;
           -webkit-background-clip: text;
         }
 
