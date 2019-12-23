@@ -1431,14 +1431,7 @@ a:hover {
       width: 20.5rem;
       margin: 0 auto;
       border-radius: 50px;
-      padding: 2px;
-      -webkit-transition: .2s ease all;
-      -o-transition: .2s ease all;
-      transition: .2s ease all; }
-      .fifth-list-item-wrap * {
-        -webkit-transition: .2s ease all;
-        -o-transition: .2s ease all;
-        transition: .2s ease all; }
+      padding: 2px; }
       .fifth-list-item-wrap-wrap2 {
         background: #ffffff;
         border-radius: 50px; }
@@ -1487,7 +1480,8 @@ a:hover {
         background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
         background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; }
+        -webkit-text-fill-color: transparent;
+        color: transparent; }
       .fifth-list-item-btn-orange {
         background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
         background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
