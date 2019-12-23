@@ -1432,11 +1432,6 @@ a:hover {
       margin: 0 auto;
       border-radius: 50px;
       padding: 2px; }
-      .fifth-list-item-wrap-wrap2 {
-        background: #ffffff;
-        border-radius: 50px; }
-        .fifth-list-item-wrap-wrap2:hover {
-          background: none; }
       .fifth-list-item-wrap-green {
         background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
         background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
@@ -1458,6 +1453,11 @@ a:hover {
         .fifth-list-item-wrap-orange:hover {
           -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5);
                   box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5); }
+      .fifth-list-item-wrap-wrap2 {
+        background: #ffffff;
+        border-radius: 50px; }
+        .fifth-list-item-wrap-wrap2:hover {
+          background: none; }
     .fifth-list-item-btn {
       display: block;
       font-size: 1.5rem;
@@ -1496,7 +1496,7 @@ a:hover {
         -moz-background-clip: text;
         -ms-background-clip: text;
         background-clip: text;
-        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
         color: transparent; }
       .fifth-list-item-btn:hover {
         -webkit-text-fill-color: #fff; }
