@@ -188,6 +188,7 @@
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
         }
 
         &-blue {
@@ -197,6 +198,7 @@
           -o-background-clip: text;
           -moz-background-clip: text;
           -ms-background-clip: text;
+          background-clip: text;
           color: transparent;
         }
 
