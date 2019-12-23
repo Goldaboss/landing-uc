@@ -1487,10 +1487,9 @@ a:hover {
         background-clip: text;
         color: transparent; }
       .fifth-list-item-btn-orange {
-        background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
-        background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
-        background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-        background: -o-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+        background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+        -o-background-image: -o-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -o-background-clip: text;
         -moz-background-clip: text;
         -ms-background-clip: text;
