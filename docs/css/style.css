@@ -1470,10 +1470,11 @@ a:hover {
       border-radius: 50px;
       cursor: pointer; }
       .fifth-list-item-btn-green {
-        background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
-        -webkit-text-fill-color: transparent;
+        background: -webkit-gradient(linear, left bottom, left top, from(#1CB6B1), to(#7BE6B9));
+        background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
+        background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
         -webkit-background-clip: text;
-        color: transparent !important; }
+        -webkit-text-fill-color: transparent; }
       .fifth-list-item-btn-blue {
         background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
         background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
