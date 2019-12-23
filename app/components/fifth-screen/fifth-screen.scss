@@ -182,10 +182,11 @@
         cursor: pointer;
 
         &-green {
+
+          -webkit-appearance: none;
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          -webkit-appearance: none;
         }
 
         &-blue {
