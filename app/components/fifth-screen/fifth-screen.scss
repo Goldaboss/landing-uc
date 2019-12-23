@@ -187,8 +187,7 @@
           background: -moz-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          z-index: 20;
+          color: transparent;
         }
 
         &-blue {
@@ -203,7 +202,6 @@
         }
 
         &-orange {
-          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9944', endColorstr='#FC6076');
           background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           background: -moz-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
