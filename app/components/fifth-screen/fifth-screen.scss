@@ -185,7 +185,7 @@
           background: -moz-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
-          color: transparent;
+          -webkit-text-fill-color: transparent;
         }
 
         &-blue {
