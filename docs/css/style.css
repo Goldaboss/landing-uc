@@ -1474,8 +1474,7 @@ a:hover {
         background: -o-linear-gradient(bottom, #1CB6B1 0%, #7BE6B9 100%);
         background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-fill-color: transparent; }
+        -webkit-text-fill-color: transparent; }
       .fifth-list-item-btn-blue {
         background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
         background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
@@ -1486,14 +1485,18 @@ a:hover {
         -moz-background-clip: text;
         -ms-background-clip: text;
         background-clip: text;
-        -webkit-text-fill-color: transparent;
         color: transparent; }
       .fifth-list-item-btn-orange {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9944', endColorstr='#FC6076');
         background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
         background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         background: -o-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
+        -o-background-clip: text;
+        -moz-background-clip: text;
+        -ms-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent; }
       .fifth-list-item-btn:hover {
