@@ -202,10 +202,10 @@
         &-orange {
 
           background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -webkit-background-image: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -moz-background-image: -moz-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          background-image: -ms-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
-          -o-background-image: -o-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          -webkit-background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          -moz-background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          -o-background-image: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -o-background-clip: text;
           -moz-background-clip: text;
           -ms-background-clip: text;
