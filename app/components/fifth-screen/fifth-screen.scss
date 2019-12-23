@@ -183,7 +183,7 @@
 
         &-green {
           -webkit-text-fill-color: transparent;
-          background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+          background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
           color: transparent !important;
         }
