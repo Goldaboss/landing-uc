@@ -182,10 +182,9 @@
         cursor: pointer;
 
         &-green {
-          background: -moz-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+          -webkit-text-fill-color: transparent;
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
         }
 
         &-blue {
