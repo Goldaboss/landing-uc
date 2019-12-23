@@ -182,7 +182,7 @@
         cursor: pointer;
 
         &-green {
-
+          background-attachment: fixed;
           background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-text-fill-color: transparent;
           -webkit-background-clip: text;
