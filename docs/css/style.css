@@ -1473,18 +1473,16 @@ a:hover {
       .fifth-list-item-btn-green {
         background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; }
+        -webkit-text-fill-color: transparent;
+        height: 100px; }
       .fifth-list-item-btn-blue {
         background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: block;
-        height: 100px; }
+        -webkit-text-fill-color: transparent; }
       .fifth-list-item-btn-orange {
         background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        line-height: 3rem; }
+        -webkit-text-fill-color: transparent; }
       .fifth-list-item-btn:hover {
         -webkit-text-fill-color: #fff; }
 
