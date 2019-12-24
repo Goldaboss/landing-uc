@@ -191,7 +191,6 @@
           background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          display: block;
           height: 100px;
         }
 
@@ -199,7 +198,6 @@
           background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          line-height: 3rem;
         }
 
         &:hover {
