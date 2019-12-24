@@ -1449,9 +1449,7 @@ a:hover {
       .fifth-list-item-wrap-orange {
         background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
         background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
-        background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
-      .fifth-list-item-wrap-orange>span {
-        display: block;}
+        background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }      
         .fifth-list-item-wrap-orange:hover {
           -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5);
                   box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5); }
@@ -1486,6 +1484,8 @@ a:hover {
         background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
+       .fifth-list-item-btn-orange>span {
+         display: block;{
       .fifth-list-item-btn:hover {
         -webkit-text-fill-color: #fff; }
 
