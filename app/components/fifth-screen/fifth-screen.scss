@@ -180,6 +180,12 @@
         border-radius: 50px;
         cursor: pointer;
 
+
+        width: 100%;
+        border-radius: 50px;
+        border: none;
+        background: transparent;
+
         &-green {
           background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
@@ -190,11 +196,7 @@
           background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-
-          &-grad {
-            display: block;
-            margin: 0;
-          }
+          display: block;
         }
 
         &-orange {
