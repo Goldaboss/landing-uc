@@ -1450,7 +1450,7 @@ a:hover {
         background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
         background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
         background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%); }
-      .fifth-list-item-wrap-orange span {
+      .fifth-list-item-wrap-orange>span {
         display: block;}
         .fifth-list-item-wrap-orange:hover {
           -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.5);
