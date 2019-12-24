@@ -179,12 +179,7 @@
         width: 100%;
         border-radius: 50px;
         cursor: pointer;
-
-
-        width: 100%;
-        border-radius: 50px;
-        border: none;
-        background: transparent;
+        text-align: center;
 
         &-green {
           background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
@@ -196,7 +191,7 @@
           background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          display: block;
+
         }
 
         &-orange {
@@ -207,10 +202,6 @@
 
         &:hover {
           -webkit-text-fill-color: #fff;
-        }
-
-        &-grad {
-          display: block;
         }
       }
     }
