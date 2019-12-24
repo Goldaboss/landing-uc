@@ -1834,6 +1834,12 @@ a:hover {
   -webkit-box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
           box-shadow: 4px 4px 20px rgba(0, 135, 255, 0.2);
   margin: 25px auto; }
+  .popup .btn-free:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF9944), to(#FC6076));
+    background: -o-linear-gradient(top, #FF9944 0%, #FC6076 100%);
+    background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+    -webkit-box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2);
+            box-shadow: 4px 4px 20px rgba(242, 153, 74, 0.2); }
 
 .popup .close-modal {
   position: absolute;
