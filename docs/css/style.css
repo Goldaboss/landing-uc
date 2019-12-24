@@ -458,7 +458,7 @@ a:hover {
         text-decoration: underline; }
       .first__menu-link--free {
         display: block;
-        color: #2E5473;
+        color: #2E5473 !important;
         background-color: #fff;
         font-weight: bold;
         padding: 1.020rem 2.5rem;
