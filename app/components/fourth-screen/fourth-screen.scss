@@ -62,18 +62,21 @@
       }
 
       &-btn {
-        border: none;
         background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        border-bottom: 1px dashed transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 2rem;
-        color: #BDBDBD;
-        padding: 0 0 0 2.5rem;
+        margin-left: 2.5rem;
+        opacity: 0.4;
+        cursor: pointer;
 
         &-active {
-          -webkit-background-clip: unset;
-          -webkit-text-fill-color: unset;
-          background: none;
+          background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          border-bottom: 1px dashed #007eee;
+          opacity: 1;
         }
       }
     }

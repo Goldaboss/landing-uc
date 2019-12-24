@@ -458,7 +458,7 @@ a:hover {
         text-decoration: underline; }
       .first__menu-link--free {
         display: block;
-        color: #2E5473 !important;
+        color: #2E5473;
         background-color: #fff;
         font-weight: bold;
         padding: 1.020rem 2.5rem;
@@ -1042,19 +1042,24 @@ a:hover {
       display: -ms-flexbox;
       display: flex; }
     .fourth__main-header-btn {
-      border: none;
       background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
       background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
       background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+      border-bottom: 1px dashed transparent;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 2rem;
-      color: #BDBDBD;
-      padding: 0 0 0 2.5rem; }
+      margin-left: 2.5rem;
+      opacity: 0.4;
+      cursor: pointer; }
       .fourth__main-header-btn-active {
-        -webkit-background-clip: unset;
-        -webkit-text-fill-color: unset;
-        background: none; }
+        background: -webkit-gradient(linear, left top, left bottom, from(#00D0F7), to(#007EEE));
+        background: -o-linear-gradient(top, #00D0F7 0%, #007EEE 100%);
+        background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom: 1px dashed #007eee;
+        opacity: 1; }
   .fourth__main-scheme {
     display: -webkit-box;
     display: -webkit-flex;
