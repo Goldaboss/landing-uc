@@ -1484,7 +1484,7 @@ a:hover {
         background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
-       .fifth-list-item-btn-orange+span {
+       .fifth-list-item-btn-orange>span {
          display: block;{
       .fifth-list-item-btn:hover {
         -webkit-text-fill-color: #fff; }
