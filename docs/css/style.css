@@ -1808,6 +1808,9 @@ a:hover {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center; }
+      .popup__main-form-label-text {
+        padding: 0 0 0 10px;
+        margin: 0; }
   .popup__main-text {
     font-size: 1.33rem;
     padding: 10px 0;
