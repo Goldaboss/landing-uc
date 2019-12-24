@@ -1479,11 +1479,12 @@ a:hover {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         display: block;
-        height: 50px; }
+        height: 100px; }
       .fifth-list-item-btn-orange {
         background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; }
+        -webkit-text-fill-color: transparent;
+        line-height: 3rem; }
       .fifth-list-item-btn:hover {
         -webkit-text-fill-color: #fff; }
 
