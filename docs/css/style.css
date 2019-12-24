@@ -1477,6 +1477,9 @@ a:hover {
         background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
+        .fifth-list-item-btn-blue-grad {
+          display: block;
+          margin: 0; }
       .fifth-list-item-btn-orange {
         background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
         -webkit-background-clip: text;
