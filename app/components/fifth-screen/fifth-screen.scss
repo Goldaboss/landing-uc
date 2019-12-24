@@ -190,6 +190,10 @@
           background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+
+          &-grad {
+            display: block;
+          }
         }
 
         &-orange {
