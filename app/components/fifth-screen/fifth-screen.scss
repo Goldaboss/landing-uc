@@ -133,7 +133,6 @@
         margin: 0 auto;
         border-radius: 50px;
         padding: 2px;
-        z-index: 1;
 
         &-green {
           background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
@@ -162,7 +161,7 @@
         &-wrap2 {
           background: #ffffff;
           border-radius: 50px;
-          z-index: 2;
+
           &:hover {
             background: none;
           }
@@ -180,26 +179,27 @@
         width: 100%;
         border-radius: 50px;
         cursor: pointer;
-        z-index: 3;
+
         &-green {
-          background: linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
+          background: -webkit-linear-gradient(360deg, #1CB6B1 0%, #7BE6B9 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
 
         &-blue {
-          -webkit-appearance: none;
-          background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
+          background: -webkit-linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
 
         &-orange {
-          -webkit-appearance: none;
-          background: linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
+          background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          z-index: 4;
+
+          &-grad {
+            display: block;
+          }
         }
 
         &:hover {
