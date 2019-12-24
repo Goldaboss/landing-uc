@@ -201,14 +201,14 @@
           background: -webkit-linear-gradient(180deg, #FF9944 0%, #FC6076 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-
-          &-grad {
-            display: block;
-          }
         }
 
         &:hover {
           -webkit-text-fill-color: #fff;
+        }
+
+        &-grad {
+          display: block;
         }
       }
     }
