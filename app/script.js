@@ -7,7 +7,8 @@ $(document).ready(function () {
         $(".js-nav").removeClass('first__menu-wrap-active');
     });
 
-    $(".js-tab-button").on("click", function () {
+    $(".js-tab-button").on("click", function (evt) {
+        evt.preventDefault();
         const tabClass = $(this).attr("data-tab-class"),
             block = $('.' + tabClass);
         $(".js-tab-button").removeClass("fourth__main-header-btn-active");
