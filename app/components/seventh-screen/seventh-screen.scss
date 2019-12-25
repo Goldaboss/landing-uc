@@ -38,7 +38,7 @@
       }
     }
 
-    &-text {
+    &-field {
       font-size: 1.33rem;
       padding: 10px 0;
       margin: 0 0 21px;
@@ -46,19 +46,15 @@
       border-radius: 10px;
       background: #F2F2F2;
       outline: none;
+
+      &-error {
+
+      }
+
+      &-success {
+
+      }
     }
-
-    &-tel {
-      font-size: 1.33rem;
-      padding: 10px 0;
-      margin: 0 0 21px;
-      text-align: center;
-      border-radius: 10px;
-      background: #F2F2F2;
-      outline: none;
-    }
-
-
   }
 
   .btn-free {
@@ -151,3 +147,4 @@
     margin-left: -160px;
   }
 }
+

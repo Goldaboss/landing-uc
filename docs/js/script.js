@@ -1,6 +1,72 @@
-"use strict";
+'use strict';
 
 $(document).ready(function () {
+  var options = {
+    classNok: 'popup__main-field-error',
+
+    /* CSS класс для полей с ошибкой */
+    classOk: 'popup__main-field-success',
+
+    /* CSS класс для полей без ошибки */
+    required: [
+    /* Массив с полями формы, которые надо проверять */
+    {
+      selector: '[name=name]',
+
+      /* Указываем какое поле нужно проверять */
+      pattern: /^[а-яА-ЯЁё]{3,}$/
+      /* Регулярное выражение для проверки значения поля */
+
+    }, {
+      selector: '[name=phone]',
+      customFunc: function customFunc() {
+        /* Функция для проверки поля, должна вернуть true или false */
+        if ($("#phone").inputmask("isComplete")) {
+          //do something
+          return true;
+        } else {
+          return false;
+        }
+      }
+    }, {
+      selector: '[name=agree]',
+      customFunc: function customFunc() {
+        if ($(".js-agree").prop("checked")) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+    }],
+    onSuccess: function onSuccess(form) {
+      /* Действие при успешной проверке всех полей, по умолчанию $(form).unbind('submit').submit(); */
+      $.ajax({
+        url: '/send',
+        //url страницы (action_ajax_form.php)
+        type: "POST",
+        //метод отправки
+        dataType: "html",
+        //формат данных
+        data: $(form).serialize(),
+        // Сеарилизуем объект
+        success: function success(response) {
+          //Данные отправлены успешно
+          console.log('ok');
+        },
+        error: function error(response) {
+          // Данные не отправлены
+          console.log('nok');
+          /*$('#exampleModalCenter').modal('hide');
+          $('.js-finish').modal('show');*/
+
+          $(form).parent().html('<h3>Перезвоним</h3>');
+        }
+      });
+    },
+    onFalue: function onFalue(form) {
+      /* Действие при не правильно заполненных или не заполненных полях формы */
+    }
+  };
   $(".js-anchor-link").on("click", function (evt) {
     evt.preventDefault();
     var id = $(this).attr("href"),
@@ -29,4 +95,5 @@ $(document).ready(function () {
   $(".js-menu-close").on('click', function () {
     $(".js-nav").removeClass('first__menu-wrap-active');
   });
+  $('.js-form-1').validForm(options);
 });
