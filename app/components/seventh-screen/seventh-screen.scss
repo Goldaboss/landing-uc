@@ -48,11 +48,11 @@
       outline: none;
 
       &-error {
-
+        border-color: red;
       }
 
       &-success {
-
+        border-color: green;
       }
     }
   }

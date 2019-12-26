@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -232,107 +231,110 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-rub:before {
+  content: "\e922"; }
+
 .icon-Server:before {
-  content: ""; }
+  content: "\e921"; }
 
 .icon-Union-19:before {
-  content: ""; }
+  content: "\e91f"; }
 
 .icon-Union-20:before {
-  content: ""; }
+  content: "\e920"; }
 
 .icon-Union-15:before {
-  content: ""; }
+  content: "\e919"; }
 
 .icon-Union-13:before {
-  content: ""; }
+  content: "\e91a"; }
 
 .icon-Union-14:before {
-  content: ""; }
+  content: "\e91b"; }
 
 .icon-Union-16:before {
-  content: ""; }
+  content: "\e91c"; }
 
 .icon-Union-17:before {
-  content: ""; }
+  content: "\e91d"; }
 
 .icon-Mouse:before {
-  content: ""; }
+  content: "\e91e"; }
 
 .icon-Union-7:before {
-  content: ""; }
+  content: "\e913"; }
 
 .icon-Union-8:before {
-  content: ""; }
+  content: "\e914"; }
 
 .icon-Union-9:before {
-  content: ""; }
+  content: "\e915"; }
 
 .icon-Union-10:before {
-  content: ""; }
+  content: "\e916"; }
 
 .icon-Union-11:before {
-  content: ""; }
+  content: "\e917"; }
 
 .icon-Union-12:before {
-  content: ""; }
+  content: "\e918"; }
 
 .icon-Union-1:before {
-  content: ""; }
+  content: "\e90d"; }
 
 .icon-Union-2:before {
-  content: ""; }
+  content: "\e90e"; }
 
 .icon-Union-3:before {
-  content: ""; }
+  content: "\e90f"; }
 
 .icon-Union-4:before {
-  content: ""; }
+  content: "\e910"; }
 
 .icon-Union-5:before {
-  content: ""; }
+  content: "\e911"; }
 
 .icon-Union-6:before {
-  content: ""; }
+  content: "\e912"; }
 
 .icon-1:before {
-  content: ""; }
+  content: "\e900"; }
 
 .icon-2:before {
-  content: ""; }
+  content: "\e901"; }
 
 .icon-3:before {
-  content: ""; }
+  content: "\e902"; }
 
 .icon-4:before {
-  content: ""; }
+  content: "\e903"; }
 
 .icon-5:before {
-  content: ""; }
+  content: "\e904"; }
 
 .icon-6:before {
-  content: ""; }
+  content: "\e905"; }
 
 .icon-7:before {
-  content: ""; }
+  content: "\e906"; }
 
 .icon-8:before {
-  content: ""; }
+  content: "\e907"; }
 
 .icon-9:before {
-  content: ""; }
+  content: "\e908"; }
 
 .icon-10:before {
-  content: ""; }
+  content: "\e909"; }
 
 .icon-11:before {
-  content: ""; }
+  content: "\e90a"; }
 
 .icon-12:before {
-  content: ""; }
+  content: "\e90b"; }
 
 .icon-13:before {
-  content: ""; }
+  content: "\e90c"; }
 
 html {
   font-size: 12px; }
@@ -1401,12 +1403,26 @@ a:hover {
     .fifth-list-item-price {
       font-size: 3.5rem;
       font-weight: bold;
-      display: block;
-      text-align: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
       border-bottom: 1.33333px solid #F2F2F2;
       border-top: 1.33333px solid #F2F2F2;
       padding: 2.5rem 0.6875rem;
-      white-space: nowrap; }
+      white-space: nowrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: baseline;
+      -webkit-align-items: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline; }
+      .fifth-list-item-price-rub {
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin: auto 0; }
       .fifth-list-item-price-text {
         font-size: 2rem;
         color: #E0E0E0; }
@@ -1819,6 +1835,10 @@ a:hover {
     border-radius: 10px;
     background: #F2F2F2;
     outline: none; }
+    .popup__main-field-error {
+      border-color: red; }
+    .popup__main-field-success {
+      border-color: green; }
 
 .popup .btn-free {
   display: block;
