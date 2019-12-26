@@ -1253,7 +1253,8 @@ a:hover {
         width: 100%;
         font-size: 1rem;
         margin: -5px 0 0;
-        padding: 0 0 3rem; }
+        padding: 0 0 3rem;
+        line-height: 1.8rem; }
         .fourth__main-scheme-left:before {
           content: '';
           position: absolute;
@@ -1593,6 +1594,8 @@ a:hover {
         border: none;
         padding: 0;
         margin: 0; }
+        .fifth-list-item-price-rub {
+          font-size: 0.85rem; }
         .fifth-list-item-price-text {
           font-size: 1.16rem; }
       .fifth-list-item-content {
