@@ -1841,7 +1841,7 @@ a:hover {
     .popup__main-field-error {
       border-color: red; }
     .popup__main-field-success {
-      border-color: green; }
+      border-color: lightgreen; }
 
 .popup .btn-free {
   display: block;

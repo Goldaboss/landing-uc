@@ -59,7 +59,7 @@ $(document).ready(function () {
           /*$('#exampleModalCenter').modal('hide');
           $('.js-finish').modal('show');*/
 
-          $(form).parent().html('<h3>Перезвоним</h3>');
+          $(form).parent().html('<h4>Мы свяжемся с вами в ближайшее время</h4>');
         }
       });
     },
@@ -67,6 +67,9 @@ $(document).ready(function () {
       /* Действие при не правильно заполненных или не заполненных полях формы */
     }
   };
+  $('#exampleModalCenter').on('shown.bs.modal', function () {
+    $('#name').trigger('focus');
+  });
   $(".js-anchor-link").on("click", function (evt) {
     evt.preventDefault();
     var id = $(this).attr("href"),
@@ -86,8 +89,7 @@ $(document).ready(function () {
     block.removeClass("fourth__main-scheme-none");
   });
   $("#phone").inputmask({
-    "mask": "+7 (999) 999-99-99",
-    placeholder: "+7 (___) ___-__-__"
+    "mask": "+7 (999) 999-99-99"
   });
   $(".js-btn-nav").on("click", function () {
     $(".js-nav").addClass('first__menu-wrap-active');
