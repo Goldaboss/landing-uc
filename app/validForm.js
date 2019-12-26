@@ -1,3 +1,5 @@
+'use strict';
+
 jQuery.fn.extend({
 
     validForm: function (options) {
