@@ -57,7 +57,7 @@ $(document).ready(function () {
           // Данные не отправлены
           console.log('nok');
           /*$('#exampleModalCenter').modal('hide');
-          $('.js-finish').modal('show');*/
+          // $('.js-finish').modal('show');*/
 
           $(form).parent().html('<h4>Мы свяжемся с вами в ближайшее время</h4>');
         }
