@@ -38,10 +38,14 @@ gulp.task('images', () =>
 );
 
 gulp.task('fonts', function () {
-  gulp.src('app/fonts/**/*') // Выбераем в app в fonts все папки и все подпапки и файлы в них
-      .pipe(gulp.dest('docs/fonts'))
-    }
-);
+        gulp.src('app/fonts/**/*') // Выбераем в app в fonts все папки и все подпапки и файлы в них
+    .pipe(gulp.dest('docs/fonts'))
+});
+
+gulp.task('copy', function () {
+    gulp.src('app/favicons/**/*') // Выбераем в app в favicons все папки и все подпапки и файлы в них
+        .pipe(gulp.dest('docs/favicons'))
+});
 
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browser Sync
@@ -59,4 +63,4 @@ gulp.task('watch', function() {
     gulp.watch('app/img/*', gulp.parallel('images')); // Наблюдение за картинками
 });
 
-gulp.task('default', gulp.parallel('styles', 'html', 'scripts', 'images', 'fonts', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('styles', 'html', 'scripts', 'images', 'fonts', 'browser-sync', 'copy', 'watch'));
