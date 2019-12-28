@@ -1,8 +1,8 @@
 .fourth {
 
   &__bg {
-    background:  url("../img/Section-4bg.jpg") no-repeat;
-    background-size: contain;
+    background:  url("../img/Section-4bg.jpg") 100% 100% no-repeat;
+    background-size: cover;
   }
 
   &__header {
