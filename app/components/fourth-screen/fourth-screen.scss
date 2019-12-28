@@ -70,13 +70,14 @@
         margin-left: 2.5rem;
         opacity: 0.4;
         cursor: pointer;
+        border-bottom: 1px dashed #00D0F7;
 
         &-active {
           background: linear-gradient(180deg, #00D0F7 0%, #007EEE 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          border-bottom: 1px dashed #007eee;
           opacity: 1;
+          border: none;
         }
       }
     }

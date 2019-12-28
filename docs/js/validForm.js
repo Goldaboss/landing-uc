@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 jQuery.fn.extend({
   validForm: function validForm(options) {
