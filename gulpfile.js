@@ -9,7 +9,7 @@ const gulp = require('gulp'),
 
 gulp.task('styles', function(){ // Создаем таск "styles"
     return gulp.src('app/styles/style.scss') // Берем источник
-        .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
+        .pipe(sass({outputStyle: 'compressed'})) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest('docs/css')) // Выгружаем результата в папку docs/css
         .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
