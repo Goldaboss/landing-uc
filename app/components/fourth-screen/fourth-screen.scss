@@ -348,8 +348,8 @@
             }
 
             width: 100%;
-            padding: 0 0 3rem;
-            margin: 0;
+            padding: 0;
+            margin: 0 0 3rem;
             border: none;
             text-align: left;
             font-size: 0.9rem;
@@ -357,7 +357,8 @@
 
             &:before {
               left: -29px;
-              top: -2px;
+              top: 50%;
+              margin-top: -10px;
             }
 
             &-first {
