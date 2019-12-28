@@ -95,4 +95,8 @@ $(document).ready(function () {
     $(".js-nav").removeClass('first__menu-wrap-active');
   });
   $('.js-form-1').validForm(options);
+  $('.js-video-mob').on('click', function (evt) {
+    evt.preventDefault();
+    $(".js-spoiler-block").slideToggle();
+  });
 });

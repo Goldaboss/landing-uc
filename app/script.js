@@ -93,6 +93,11 @@ $(document).ready(function () {
 
     $('.js-form-1').validForm(options);
 
+    $('.js-video-mob').on('click', function (evt) {
+        evt.preventDefault();
+        $(".js-spoiler-block").slideToggle();
+    })
+
 });
 
 

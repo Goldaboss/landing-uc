@@ -893,6 +893,8 @@ a:hover {
       border-radius: 20px 20px 5px 5px;
       background: black;
       outline: none; }
+    .third__main-video-mob {
+      display: none; }
   .third__main-capabilities {
     padding: 3.125rem 0 1.875rem 1.5rem;
     display: -webkit-box;
@@ -968,13 +970,56 @@ a:hover {
       text-align: inherit; }
   .third__main-video {
     display: none; }
+    .third__main-video-mob {
+      display: block; }
+      .third__main-video-mob-btn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background: -webkit-linear-gradient(270deg, #c9eef5 0%, #007EEE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+        .third__main-video-mob-btn-img {
+          display: block;
+          margin-right: 1rem;
+          width: 3.16rem;
+          height: 3.16rem;
+          border-radius: 50%;
+          background: -webkit-linear-gradient(270deg, #c9eef5 0%, #007EEE 100%);
+          position: relative; }
+          .third__main-video-mob-btn-img:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 21px;
+            border-top: 10px solid transparent;
+            border-left: 15px solid white;
+            border-bottom: 10px solid transparent;
+            border-radius: 3px;
+            top: 50%;
+            margin: -10px 0  0 -6px;
+            left: 50%; }
+      .third__main-video-mob-spoiler {
+        display: none; }
   .third__main {
-    padding-bottom: 3rem; }
+    padding-bottom: 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
     .third__main-capabilities {
       padding: 0; }
       .third__main-capabilities-title {
         font-size: 1.16rem;
-        padding: 0 0 2rem; }
+        padding: 2.66rem 0 2rem; }
       .third__main-capabilities-list {
         padding: 0;
         margin: 0; }
