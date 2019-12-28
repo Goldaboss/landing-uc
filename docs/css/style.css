@@ -1241,7 +1241,8 @@ a:hover {
                 align-self: flex-start;
         padding-bottom: 2rem; }
       .fourth__main-header-btn {
-        font-size: 1.16rem; }
+        font-size: 1.16rem;
+        margin: 0 2.5rem 0 0; }
     .fourth__main-scheme {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
