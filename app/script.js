@@ -44,13 +44,12 @@ $(document).ready(function () {
                 dataType: "html", //формат данных
                 data: $(form).serialize(),  // Сеарилизуем объект
                 success: function(response) { //Данные отправлены успешно
-                    console.log('ok');
+                    $(form).parent().html('<p style="text-align: center; margin: 30px 0;">Мы свяжемся с вами в ближайшее время</p>');
                 },
                 error: function(response) { // Данные не отправлены
-                    console.log('nok');
-                    /*$('#exampleModalCenter').modal('hide');
-                    // $('.js-finish').modal('show');*/
-                    $(form).parent().html('<h4>Мы свяжемся с вами в ближайшее время</h4>')
+                    $('#exampleModalCenter').modal('hide');
+                    $('.js-finish-error').modal('show');
+
                 }
             });
         },

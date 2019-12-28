@@ -51,15 +51,12 @@ $(document).ready(function () {
         // Сеарилизуем объект
         success: function success(response) {
           //Данные отправлены успешно
-          console.log('ok');
+          $(form).parent().html('<p style="text-align: center; margin: 30px 0;">Мы свяжемся с вами в ближайшее время</p>');
         },
         error: function error(response) {
           // Данные не отправлены
-          console.log('nok');
-          /*$('#exampleModalCenter').modal('hide');
-          // $('.js-finish').modal('show');*/
-
-          $(form).parent().html('<h4>Мы свяжемся с вами в ближайшее время</h4>');
+          $('#exampleModalCenter').modal('hide');
+          $('.js-finish-error').modal('show');
         }
       });
     },
