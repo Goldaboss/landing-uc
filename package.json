@@ -28,6 +28,7 @@
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "inputmask": "^5.0.0"
+    "inputmask": "^5.0.0",
+    "node-sass": "^7.0.1"
   }
 }
